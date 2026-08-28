@@ -83,6 +83,27 @@ scheme:CKANLicenseID a skos:Concept ;
     skos:prefLabel "CKAN licence identifier"@en ;
     skos:note "CKAN ships a controlled licence list (cc-by, cc-zero, odc-by and so on). A catalogue that also stores SPDX-style identifiers (CC-BY-4.0) or free text for the same licences has an uncontrolled vocabulary on a controlled field."@en .
 
+scheme:ORCID a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "ORCID iD"@en ;
+    scheme:pattern "^(https://orcid\\.org/)?\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dXx]$" ;
+    scheme:checksumAlgorithm "ISO 7064 MOD 11-2 over the 15 digits" ;
+    scheme:resolutionTemplate "https://pub.orcid.org/v3.0/{id}" ;
+    skos:note "ORCID's display guideline is the full URL form, so a URL-form value is conformant. Hyphens must be HYPHEN-MINUS; values typed with en dashes fail the scheme while looking identical on screen. Registration is self-service, so a resolving iD is not evidence the account describes the person the register links it to."@en .
+
+scheme:VIAF a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "VIAF identifier"@en ;
+    scheme:pattern "^\\d{1,22}$" ;
+    scheme:resolutionTemplate "https://viaf.org/viaf/{id}" .
+
+scheme:WikidataQID a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "Wikidata entity identifier"@en ;
+    scheme:pattern "^Q\\d+$" ;
+    scheme:resolutionTemplate "https://www.wikidata.org/wiki/{id}" ;
+    skos:note "Values carrying trailing bidirectional-control characters such as U+200F match no entity while rendering identically."@en .
+
 scheme:LSID a skos:Concept ;
     skos:inScheme scheme:IdentifierSchemeRegistry ;
     skos:prefLabel "Life Science Identifier"@en ;

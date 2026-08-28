@@ -59,6 +59,24 @@ Not fetched: the 2.4 GB `data.zip` (the individual TSVs cover every table used);
 - The duplicate rows agree on their rights fields in every case (zero disagreements), so per-item rights statistics are computed over distinct items.
 - Discovery is worth recording: the first build counted rows set-based while the graph merged nodes, the dual computation refused to reconcile (288,846 vs 283,090), and chasing the 5,756 gap exposed the key collision. This is the fifth vertical in a row in which the two-ways rule has caught a real defect, in this case in the source, not in our code.
 
+## Second mining pass (same day, `pipeline/06_census_deep.py` and `07_resolution_deep.py`)
+
+### F6. Person identifiers: the creator register duplicates people and inherits impersonated ORCIDs
+- Of 27,282 ORCID values, 3 fail the ORCID ISO 7064 MOD 11-2 checksum and 6 are malformed, including values typed with EN DASHES instead of hyphens (`0000–0002–0941–7203`) and one double-prefixed value (`https://orcid.org/http://orcid.org/...`). The en-dash class is the third invisible-to-the-eye character defect in this vertical.
+- **782 ORCID values are shared by more than one creator record**, corroborated by 736 shared VIAF values and 807 shared Wikidata Q-ids: the creator authority file holds hundreds of duplicate person records (`Rivas, Luis Rolando` / `Rivas, Luis Rene`). At least one shared ORCID joins two clearly different people (`Lim, Burton K.` and `Eger, Judith L.`).
+- **11 creators whose name string embeds a death year before 2010 carry an ORCID, including Shakespeare (d. 1616), Napoleon I (d. 1821) and Ramon y Cajal (d. 1934).** Checked against the registry: these resolve to live ORCID accounts registered under those names, so the defect is joint. The ORCID registry contains self-registered accounts in the names of historical figures, and the BHL pipeline ingested them as author identities. List in `reports/orcid_deceased.json`.
+- 61 of 49,584 creator Wikidata values are malformed, several carrying U+200F RIGHT-TO-LEFT MARK appended and one a stray opening parenthesis. 12 of 46,601 VIAF values are malformed.
+- All 27,282 ORCIDs are stored in URL form, which is ORCID's own display guideline and is NOT counted as a defect.
+
+### F7. BHL title chronology
+- 611 titles have an EndYear earlier than their StartYear (TitleID 948 spans 1894 to 1815). 3 titles start before 1450. 9,763 titles carry no language code.
+
+### F8. Null result, reported as one: the ZooBank mirror's internal hierarchy is clean
+- Across all 399,326 records in the ChecklistBank snapshot: zero duplicate identifiers, zero orphan parent references, zero self-parenting. 13 records lack authorship. ZooBank's problem is availability and staleness, not content integrity. Fairness demands this stated as prominently as F1.
+
+### F9. NHM resource liveness
+- See `reports/resolution_deep.json` (full census of every resource URL on the portal, observation-cached).
+
 ## Verification achieved
 - `pipeline/05_verify.py`: all 11 dual computations agree (see `reports/verification.json`).
 - SHACL: layer 1 clean over the defects partition plus a seeded 5,000-node conformant control sample. Layer 2 reports 3,669 violations, reconciling exactly as 3,583 non-conformant assertions (13 DOI + 912 ISBN + 6 ISSN + 2,652 OCLC) + 2 resolver-prefix + 84 invisible-character licences. Layer 3 reports 408, reconciling exactly as 351 multiply-assigned assertions + 55 dead-URL observations (50 ZooBank + 4 unregistered bad-syntax DOIs + 1 dead external DOI) + 2 stale snapshots.

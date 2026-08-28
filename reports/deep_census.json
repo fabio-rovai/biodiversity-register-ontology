@@ -1,0 +1,486 @@
+{
+  "orcid": {
+    "total": 27282,
+    "url-form": 27282,
+    "checksum-failure": 3,
+    "malformed-syntax": 6,
+    "examples": {
+      "checksum-failure": [
+        {
+          "CreatorID": "194399",
+          "value": "https://orcid.org/0000-0002-5327-3704"
+        },
+        {
+          "CreatorID": "198070",
+          "value": "https://orcid.org/0000-0002-3416-8096"
+        },
+        {
+          "CreatorID": "258838",
+          "value": "https://orcid.org/0000-0001-0526-2632"
+        }
+      ],
+      "malformed-syntax": [
+        {
+          "CreatorID": "315253",
+          "value": "https://orcid.org/0000\u20130002\u20130941\u20137203"
+        },
+        {
+          "CreatorID": "315364",
+          "value": "https://orcid.org/http://orcid.org/0000\u20130002\u20137366\u20137290"
+        },
+        {
+          "CreatorID": "315474",
+          "value": "https://orcid.org/0009\u20130000\u20136263\u20133821"
+        },
+        {
+          "CreatorID": "321816",
+          "value": "https://orcid.org/0009\u20130008\u20134849\u20132426"
+        },
+        {
+          "CreatorID": "321817",
+          "value": "https://orcid.org/0009\u20130003\u20130490\u20133557"
+        },
+        {
+          "CreatorID": "321818",
+          "value": "https://orcid.org/0009\u20130009\u20139078\u20139976"
+        }
+      ]
+    }
+  },
+  "viaf": {
+    "total": 46601,
+    "malformed": 12,
+    "examples": [
+      {
+        "CreatorID": "49543",
+        "value": "Q110963184"
+      },
+      {
+        "CreatorID": "61824",
+        "value": "30932617\u200f"
+      },
+      {
+        "CreatorID": "86173",
+        "value": "Q55625976"
+      },
+      {
+        "CreatorID": "108804",
+        "value": "/66202585"
+      },
+      {
+        "CreatorID": "110284",
+        "value": "Q58064301"
+      },
+      {
+        "CreatorID": "134519",
+        "value": "Q104617157"
+      },
+      {
+        "CreatorID": "183541",
+        "value": "Q125476733"
+      },
+      {
+        "CreatorID": "256668",
+        "value": "Jan"
+      },
+      {
+        "CreatorID": "264252",
+        "value": "http://viaf.org/viaf/37030955"
+      },
+      {
+        "CreatorID": "283675",
+        "value": "Q91923189"
+      },
+      {
+        "CreatorID": "288789",
+        "value": "Q21387748"
+      },
+      {
+        "CreatorID": "304307",
+        "value": "https://orcid.org/0009-0003-2521-4865"
+      }
+    ]
+  },
+  "wikidata_title": {
+    "total": 65627
+  },
+  "wikidata_part": {
+    "total": 1059
+  },
+  "wikidata_creator": {
+    "total": 49584,
+    "malformed": 61
+  },
+  "wikidata_examples": {
+    "creator": [
+      {
+        "CreatorID": "444",
+        "value": "Q155764\u200f"
+      },
+      {
+        "CreatorID": "1253",
+        "value": "Q21510520\u200f"
+      },
+      {
+        "CreatorID": "2669",
+        "value": "Q336404\u200f"
+      },
+      {
+        "CreatorID": "3574",
+        "value": "Q95149052\u200f"
+      },
+      {
+        "CreatorID": "4409",
+        "value": "Q4822981\u200f"
+      },
+      {
+        "CreatorID": "8777",
+        "value": "Q3524948\u200f"
+      },
+      {
+        "CreatorID": "9438",
+        "value": "Q21166203\u200f"
+      },
+      {
+        "CreatorID": "9731",
+        "value": "Q64830\u200f"
+      },
+      {
+        "CreatorID": "13605",
+        "value": "Q6223729\u200f"
+      },
+      {
+        "CreatorID": "15571",
+        "value": "Q91838447\u200f"
+      },
+      {
+        "CreatorID": "18328",
+        "value": "Q21388450\u200f"
+      },
+      {
+        "CreatorID": "18727",
+        "value": "Q7348776\u200f"
+      },
+      {
+        "CreatorID": "18789",
+        "value": "Q80461540\u200f"
+      },
+      {
+        "CreatorID": "19046",
+        "value": "Q3171251\u200f"
+      },
+      {
+        "CreatorID": "21818",
+        "value": "Q348489\u200f"
+      },
+      {
+        "CreatorID": "25941",
+        "value": "Q15999380\u200f"
+      },
+      {
+        "CreatorID": "25973",
+        "value": "Q19036641\u200f"
+      },
+      {
+        "CreatorID": "30078",
+        "value": "Q705014\u200f"
+      },
+      {
+        "CreatorID": "30814",
+        "value": "Q21393355\u200f"
+      },
+      {
+        "CreatorID": "33169",
+        "value": "Q75921\u200f"
+      },
+      {
+        "CreatorID": "34620",
+        "value": "Q21608797\u200f"
+      },
+      {
+        "CreatorID": "36290",
+        "value": "75143765"
+      },
+      {
+        "CreatorID": "42471",
+        "value": "Q51356014\u200f"
+      },
+      {
+        "CreatorID": "46307",
+        "value": "Q4516778\u200f"
+      },
+      {
+        "CreatorID": "50425",
+        "value": "(Q114980055"
+      }
+    ]
+  },
+  "creator_identifier_sharing": {
+    "ORCID": {
+      "values_shared_by_multiple_creators": 782,
+      "examples": {
+        "https://orcid.org/0000-0002-3156-9705": [
+          "235948",
+          "5925"
+        ],
+        "https://orcid.org/0000-0003-4969-0789": [
+          "306425",
+          "7274"
+        ],
+        "https://orcid.org/0000-0002-6078-1342": [
+          "10259",
+          "102594"
+        ],
+        "https://orcid.org/0000-0002-1217-7693": [
+          "13410",
+          "272595"
+        ],
+        "https://orcid.org/0000-0002-1488-6194": [
+          "34608",
+          "60745"
+        ],
+        "https://orcid.org/0000-0002-0884-0421": [
+          "102850",
+          "38320"
+        ],
+        "https://orcid.org/0000-0001-8519-0517": [
+          "242513",
+          "45499"
+        ],
+        "https://orcid.org/0000-0003-1483-9651": [
+          "283834",
+          "46878"
+        ],
+        "https://orcid.org/0000-0001-9205-6818": [
+          "231908",
+          "47012"
+        ],
+        "https://orcid.org/0000-0001-7680-154X": [
+          "133481",
+          "47132"
+        ]
+      }
+    },
+    "VIAF": {
+      "values_shared_by_multiple_creators": 736,
+      "examples": {
+        "59120694": [
+          "525",
+          "73"
+        ],
+        "167624331": [
+          "243",
+          "5472"
+        ],
+        "125477895": [
+          "1625",
+          "312",
+          "313"
+        ],
+        "127829521": [
+          "1625",
+          "312",
+          "313"
+        ],
+        "131422873": [
+          "1625",
+          "312",
+          "313"
+        ],
+        "266640645": [
+          "1625",
+          "312",
+          "313"
+        ],
+        "135547766": [
+          "11898",
+          "317"
+        ],
+        "159805885": [
+          "1957",
+          "408"
+        ],
+        "317275207": [
+          "151171",
+          "417"
+        ],
+        "42615363": [
+          "478",
+          "52765"
+        ]
+      }
+    },
+    "Wikidata": {
+      "values_shared_by_multiple_creators": 807,
+      "examples": {
+        "Q84497": [
+          "525",
+          "73"
+        ],
+        "Q270794": [
+          "243",
+          "5472"
+        ],
+        "Q1122595": [
+          "1625",
+          "312",
+          "313"
+        ],
+        "Q1032739": [
+          "11898",
+          "317"
+        ],
+        "Q131626": [
+          "1957",
+          "408"
+        ],
+        "Q2983655": [
+          "151171",
+          "417"
+        ],
+        "Q64899": [
+          "478",
+          "52765"
+        ],
+        "Q3488534": [
+          "2370",
+          "786"
+        ],
+        "Q609093": [
+          "14857",
+          "790"
+        ],
+        "Q77215": [
+          "178169",
+          "953"
+        ]
+      }
+    }
+  },
+  "zoobank_mirror": {
+    "records": 399326,
+    "duplicate_ids": 0,
+    "duplicate_id_examples": {},
+    "orphan_parent_refs": 0,
+    "orphan_examples": [],
+    "self_parenting": 0,
+    "records_without_authorship": 13,
+    "roots_or_parentless": 172645
+  },
+  "title_years": {
+    "end_before_start": 611,
+    "start_before_1450": 3,
+    "examples": {
+      "end_before_start": [
+        {
+          "TitleID": "1207",
+          "start": "1906",
+          "end": "1903"
+        },
+        {
+          "TitleID": "1004",
+          "start": "1894",
+          "end": "1888"
+        },
+        {
+          "TitleID": "1034",
+          "start": "1900",
+          "end": "1899"
+        },
+        {
+          "TitleID": "1236",
+          "start": "1894",
+          "end": "1888"
+        },
+        {
+          "TitleID": "1720",
+          "start": "1916",
+          "end": "1895"
+        },
+        {
+          "TitleID": "947",
+          "start": "1877",
+          "end": "1870"
+        },
+        {
+          "TitleID": "948",
+          "start": "1894",
+          "end": "1815"
+        },
+        {
+          "TitleID": "1934",
+          "start": "1922",
+          "end": "1895"
+        },
+        {
+          "TitleID": "1088",
+          "start": "1921",
+          "end": "1920"
+        },
+        {
+          "TitleID": "1773",
+          "start": "1893",
+          "end": "1892"
+        }
+      ],
+      "start_before_1450": [
+        {
+          "TitleID": "215911",
+          "value": "1175"
+        },
+        {
+          "TitleID": "221114",
+          "value": "889"
+        },
+        {
+          "TitleID": "221117",
+          "value": "889"
+        }
+      ]
+    }
+  },
+  "title_language_top": [
+    [
+      "ENG",
+      175156
+    ],
+    [
+      "(blank)",
+      9763
+    ],
+    [
+      "GER",
+      6477
+    ],
+    [
+      "FRE",
+      6308
+    ],
+    [
+      "LAT",
+      2342
+    ],
+    [
+      "CHI",
+      930
+    ],
+    [
+      "SPA",
+      866
+    ],
+    [
+      "ITA",
+      788
+    ],
+    [
+      "DUT",
+      435
+    ],
+    [
+      "UND",
+      396
+    ]
+  ],
+  "title_language_blank": 9763,
+  "nhm_resource_urls_written": 1288
+}
