@@ -1,0 +1,20 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pytest rdflib pyshacl
+      - run: python -m pytest tests/ -q
+      - name: Parse-verify committed Turtle artifacts
+        run: |
+          python - <<'PY'
+          import rdflib, glob
+          for f in glob.glob('ontology/*.ttl') + glob.glob('skos/*.ttl') + glob.glob('shacl/*.ttl') + ['graph/registers.ttl', 'graph/defects.ttl']:
+              g = rdflib.Graph(); g.parse(f, format='turtle')
+              print(f, len(g), 'triples')
+          PY
