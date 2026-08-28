@@ -1,0 +1,40 @@
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix biodiv: <https://gov.tesseract.academy/def/biodiversity#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+# Layer 1: structural integrity of the assertion model itself.
+
+biodiv:IdentifierAssertionShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:IdentifierAssertion ;
+    sh:property [ sh:path biodiv:assertedBy ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:message "An identifier assertion without a named register is an orphan claim." ] ;
+    sh:property [ sh:path biodiv:aboutResource ; sh:minCount 1 ;
+                  sh:message "An identifier assertion must name the resource it is about." ] ;
+    sh:property [ sh:path biodiv:usesScheme ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:message "An identifier assertion must declare its scheme." ] ;
+    sh:property [ sh:path biodiv:identifierValue ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ;
+                  sh:message "An identifier assertion must retain the published value verbatim." ] ;
+    sh:property [ sh:path biodiv:schemeConformant ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:boolean ] .
+
+biodiv:RightsAssertionShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:RightsAssertion ;
+    sh:property [ sh:path biodiv:assertedBy ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path biodiv:aboutResource ; sh:minCount 1 ] ;
+    sh:property [ sh:path biodiv:machineActionableLicense ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:boolean ] .
+
+biodiv:ResolutionObservationShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:ResolutionObservation ;
+    sh:property [ sh:path biodiv:observedUrl ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path biodiv:httpStatus ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ] ;
+    sh:property [ sh:path biodiv:observationDate ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:date ;
+                  sh:message "An undated observation cannot be replayed or superseded." ] .
+
+biodiv:RegisterSnapshotShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:RegisterSnapshot ;
+    sh:property [ sh:path biodiv:snapshotOf ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path biodiv:heldBy ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path biodiv:snapshotDate ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:date ] .

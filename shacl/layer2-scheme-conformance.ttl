@@ -1,0 +1,65 @@
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix biodiv: <https://gov.tesseract.academy/def/biodiversity#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+# Layer 2: scheme conformance. One shape per defect class, so the
+# validation report enumerates the findings.
+
+# Any assertion the pipeline judged non-conformant must say why, and is
+# itself surfaced as a violation carrying the verbatim value.
+biodiv:NonConformantIdentifierShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:IdentifierAssertion ;
+    sh:sparql [
+        sh:message "Identifier value does not conform to its declared scheme." ;
+        sh:select """
+            SELECT $this ?value WHERE {
+                $this <https://gov.tesseract.academy/def/biodiversity#schemeConformant> false .
+                $this <https://gov.tesseract.academy/def/biodiversity#identifierValue> ?value .
+            }
+        """ ;
+    ] .
+
+biodiv:NonConformantNeedsReasonShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:IdentifierAssertion ;
+    sh:sparql [
+        sh:message "Non-conformant assertion lacks a nonConformanceReason." ;
+        sh:select """
+            SELECT $this WHERE {
+                $this <https://gov.tesseract.academy/def/biodiversity#schemeConformant> false .
+                FILTER NOT EXISTS {
+                    $this <https://gov.tesseract.academy/def/biodiversity#nonConformanceReason> ?r .
+                }
+            }
+        """ ;
+    ] .
+
+# A DOI stored with its resolver prefix is a display string, not an identifier.
+biodiv:ResolverPrefixDOIShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:IdentifierAssertion ;
+    sh:sparql [
+        sh:message "DOI value carries the https://doi.org/ resolver prefix." ;
+        sh:select """
+            SELECT $this ?value WHERE {
+                $this <https://gov.tesseract.academy/def/biodiversity#identifierValue> ?value .
+                FILTER STRSTARTS(?value, "https://doi.org/")
+            }
+        """ ;
+    ] .
+
+# A licence IRI containing characters outside printable ASCII cannot be
+# matched by any licence registry.
+biodiv:InvisibleCharacterLicenseShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:RightsAssertion ;
+    sh:sparql [
+        sh:message "Licence IRI contains characters outside printable ASCII." ;
+        sh:select """
+            SELECT $this ?iri WHERE {
+                $this <https://gov.tesseract.academy/def/biodiversity#licenseIRI> ?iri .
+                FILTER (REGEX(?iri, "[^\\\\x20-\\\\x7E]"))
+            }
+        """ ;
+    ] .

@@ -1,0 +1,1054 @@
+{
+  "doi": {
+    "total_rows": 306173,
+    "by_entity_type": {
+      "Title": 124521,
+      "Part": 181652
+    },
+    "bad_syntax_count": 13,
+    "bad_syntax_examples": [
+      {
+        "EntityType": "Title",
+        "EntityID": "220987",
+        "DOI": "Array",
+        "CreationDate": "2026-07-04 04:05:11.9430000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "221007",
+        "DOI": "Array",
+        "CreationDate": "2026-07-04 04:30:29.7600000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "220283",
+        "DOI": "Array",
+        "CreationDate": "2026-05-09 04:13:39.3900000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "221009",
+        "DOI": "Array",
+        "CreationDate": "2026-07-04 04:31:13.5830000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "220989",
+        "DOI": "Array",
+        "CreationDate": "2026-07-04 04:08:15.9730000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "220997",
+        "DOI": "Array",
+        "CreationDate": "2026-07-04 04:17:43.5130000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "220146",
+        "DOI": "Array",
+        "CreationDate": "2026-04-26 10:23:25.4430000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "221002",
+        "DOI": "Array",
+        "CreationDate": "2026-07-04 04:23:30.9530000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "221301",
+        "DOI": "Array",
+        "CreationDate": "2026-07-25 04:34:00.5170000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "220148",
+        "DOI": "Array",
+        "CreationDate": "2026-04-26 10:23:26.6930000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "210942",
+        "DOI": "https://doi.org/10.1206/0003-0090.466.1.1",
+        "CreationDate": "2024-05-12 01:51:25.4800000"
+      },
+      {
+        "EntityType": "Title",
+        "EntityID": "220871",
+        "DOI": "v.1:no.1 (1895)",
+        "CreationDate": "2026-06-06 03:17:26.9600000"
+      },
+      {
+        "EntityType": "Part",
+        "EntityID": "422901",
+        "DOI": "https://doi.org/10.3897/dez.69.83335",
+        "CreationDate": "2025-05-15 19:01:38.9600000"
+      }
+    ],
+    "distinct_dois": 305993,
+    "dois_assigned_to_multiple_entities": 171,
+    "dois_assigned_across_entity_types": 6,
+    "cross_entity_examples": {
+      "10.1111/j.1096-3642.1813.tb00057.x": [
+        [
+          "Title",
+          "19708"
+        ],
+        [
+          "Part",
+          "19708"
+        ]
+      ],
+      "10.5479/si.00963801.8-535.449": [
+        [
+          "Title",
+          "127970"
+        ],
+        [
+          "Part",
+          "51011"
+        ]
+      ],
+      "10.1080/00222935709487874": [
+        [
+          "Title",
+          "471"
+        ],
+        [
+          "Part",
+          "3357"
+        ]
+      ],
+      "10.1111/j.1096-3642.1865.tb02437.x": [
+        [
+          "Title",
+          "110048"
+        ],
+        [
+          "Part",
+          "376921"
+        ]
+      ],
+      "10.2307/1005355": [
+        [
+          "Title",
+          "60499"
+        ],
+        [
+          "Title",
+          "60482"
+        ],
+        [
+          "Part",
+          "448546"
+        ]
+      ],
+      "10.5479/si.03629236.75.1": [
+        [
+          "Title",
+          "32556"
+        ],
+        [
+          "Part",
+          "5599"
+        ]
+      ]
+    },
+    "entities_with_multiple_dois": 52,
+    "entities_with_multiple_dois_examples": {
+      "Title:109982": [
+        "10.1017/cbo9780511782916",
+        "10.5962/bhl.title.109982"
+      ],
+      "Title:63768": [
+        "10.2307/1219016",
+        "10.5962/bhl.title.63768"
+      ],
+      "Title:8563": [
+        "10.26515/rzsi/v17/i1/1920/162777",
+        "10.5962/bhl.title.8563"
+      ],
+      "Title:12471": [
+        "10.26515/rzsi/v20/i1/1920/163533",
+        "10.5962/bhl.title.12471"
+      ],
+      "Title:119892": [
+        "10.3133/70038938",
+        "10.5962/bhl.title.119892"
+      ],
+      "Title:67080": [
+        "10.3133/b613",
+        "10.5962/bhl.title.67080"
+      ],
+      "Title:36430": [
+        "10.3133/m17",
+        "10.5962/bhl.title.36430"
+      ],
+      "Title:69720": [
+        "10.3133/pp609",
+        "10.5962/bhl.title.69720"
+      ],
+      "Title:4336": [
+        "10.1080/00378941.1905.10833363",
+        "10.5962/bhl.title.4336"
+      ],
+      "Title:19708": [
+        "10.1111/j.1096-3642.1813.tb00057.x",
+        "10.5962/bhl.title.19708"
+      ]
+    },
+    "top_prefixes": [
+      [
+        "10.5962",
+        205247
+      ],
+      [
+        "10.3897",
+        20783
+      ],
+      [
+        "10.1080",
+        14623
+      ],
+      [
+        "10.2307",
+        14004
+      ],
+      [
+        "10.1111",
+        9852
+      ],
+      [
+        "10.1086",
+        3488
+      ],
+      [
+        "10.1155",
+        3207
+      ],
+      [
+        "10.15560",
+        3130
+      ],
+      [
+        "10.5479",
+        2820
+      ],
+      [
+        "10.1071",
+        2728
+      ],
+      [
+        "10.1093",
+        2208
+      ],
+      [
+        "10.5248",
+        2051
+      ],
+      [
+        "10.1007",
+        2007
+      ],
+      [
+        "10.22621",
+        1987
+      ],
+      [
+        "10.1002",
+        1975
+      ]
+    ],
+    "bhl_prefix_10_5962": 205247
+  },
+  "title_identifiers": {
+    "schemes": [
+      [
+        "OCLC",
+        170749
+      ],
+      [
+        "MARC001",
+        163502
+      ],
+      [
+        "NAL",
+        104557
+      ],
+      [
+        "Wikidata",
+        65627
+      ],
+      [
+        "DLC",
+        26995
+      ],
+      [
+        "OAI",
+        12298
+      ],
+      [
+        "WonderFetch",
+        10248
+      ],
+      [
+        "DDC",
+        9745
+      ],
+      [
+        "ISBN",
+        5606
+      ],
+      [
+        "ISSN",
+        2592
+      ],
+      [
+        "NLM",
+        1524
+      ],
+      [
+        "Linking ISSN",
+        1473
+      ],
+      [
+        "GPO",
+        871
+      ],
+      [
+        "CODEN",
+        521
+      ],
+      [
+        "Soulsby",
+        405
+      ],
+      [
+        "TL2",
+        350
+      ],
+      [
+        "Abbreviation",
+        176
+      ],
+      [
+        "BPH",
+        66
+      ],
+      [
+        "eISSN",
+        46
+      ]
+    ],
+    "checked": {
+      "OCLC": 170749,
+      "ISBN": 5606,
+      "ISSN": 2592
+    },
+    "conformant": {
+      "OCLC": 168097,
+      "ISBN": 4694,
+      "ISSN": 2586
+    },
+    "nonconformant_examples": {
+      "OCLC": [
+        {
+          "TitleID": "109242",
+          "value": "16723735890419"
+        },
+        {
+          "TitleID": "83799",
+          "value": "1071313940124"
+        },
+        {
+          "TitleID": "65702",
+          "value": "10629344890213"
+        },
+        {
+          "TitleID": "65838",
+          "value": "21370360901028"
+        },
+        {
+          "TitleID": "63310",
+          "value": "3086853000000"
+        },
+        {
+          "TitleID": "114959",
+          "value": "40537247990206"
+        },
+        {
+          "TitleID": "116034",
+          "value": "15601320920620"
+        },
+        {
+          "TitleID": "108733",
+          "value": "16632469890505"
+        },
+        {
+          "TitleID": "63851",
+          "value": "2123274920620"
+        },
+        {
+          "TitleID": "108352",
+          "value": "8428976991013"
+        },
+        {
+          "TitleID": "66218",
+          "value": "18339070910620"
+        },
+        {
+          "TitleID": "99385",
+          "value": "22039827901129"
+        },
+        {
+          "TitleID": "108952",
+          "value": "16654646890505"
+        },
+        {
+          "TitleID": "132962",
+          "value": "12932342890421"
+        },
+        {
+          "TitleID": "99624",
+          "value": "5763338000000"
+        },
+        {
+          "TitleID": "108998",
+          "value": "16709656890420"
+        },
+        {
+          "TitleID": "83694",
+          "value": "1071359940124"
+        },
+        {
+          "TitleID": "109120",
+          "value": "16532669890421"
+        },
+        {
+          "TitleID": "108374",
+          "value": "16756226890926"
+        },
+        {
+          "TitleID": "66392",
+          "value": "16821311890420"
+        },
+        {
+          "TitleID": "131888",
+          "value": "37744150971017"
+        },
+        {
+          "TitleID": "64895",
+          "value": "16531520890420"
+        },
+        {
+          "TitleID": "108746",
+          "value": "16654776890420"
+        },
+        {
+          "TitleID": "108827",
+          "value": "16567645890505"
+        },
+        {
+          "TitleID": "104968",
+          "value": "4723942000000"
+        }
+      ],
+      "ISBN": [
+        {
+          "TitleID": "181490",
+          "value": "(Br.)"
+        },
+        {
+          "TitleID": "4657",
+          "value": "0804700036 (v. 1)"
+        },
+        {
+          "TitleID": "156483",
+          "value": "0896721744 (pbk.)"
+        },
+        {
+          "TitleID": "181471",
+          "value": "(Br.)"
+        },
+        {
+          "TitleID": "124619",
+          "value": "0774131950 (booklet 7)"
+        },
+        {
+          "TitleID": "115523",
+          "value": "0778550834 (print)"
+        },
+        {
+          "TitleID": "115369",
+          "value": "0778528413 (online)"
+        },
+        {
+          "TitleID": "156496",
+          "value": "0896721434 (paper)"
+        },
+        {
+          "TitleID": "115784",
+          "value": "0778546047 (print)"
+        },
+        {
+          "TitleID": "97836",
+          "value": "9780914868590 (pbk.)"
+        },
+        {
+          "TitleID": "203008",
+          "value": "0915279401 (v. 1) :"
+        },
+        {
+          "TitleID": "60674",
+          "value": "0642026351 :"
+        },
+        {
+          "TitleID": "114780",
+          "value": "0778539997 (print)"
+        },
+        {
+          "TitleID": "176610",
+          "value": "(Br.)"
+        },
+        {
+          "TitleID": "114015",
+          "value": "0778545091 (print)"
+        },
+        {
+          "TitleID": "124619",
+          "value": "9780774131902 (booklet 3)"
+        },
+        {
+          "TitleID": "219354",
+          "value": "3260047522 (pbk.)"
+        },
+        {
+          "TitleID": "113915",
+          "value": "0778521788 (print)"
+        },
+        {
+          "TitleID": "115362",
+          "value": "0778517489 (print)"
+        },
+        {
+          "TitleID": "114122",
+          "value": "0778519945 (on-line ed.)"
+        },
+        {
+          "TitleID": "113962",
+          "value": "0778529770 (print)"
+        },
+        {
+          "TitleID": "124619",
+          "value": "9780774131872 (booklet 1)"
+        },
+        {
+          "TitleID": "114018",
+          "value": "9780778563167 (online)"
+        },
+        {
+          "TitleID": "212464",
+          "value": "9772792931 (v. 1)"
+        },
+        {
+          "TitleID": "113820",
+          "value": "0778511774 (print)"
+        }
+      ],
+      "ISSN": [
+        {
+          "TitleID": "62835",
+          "value": "0438-6572"
+        },
+        {
+          "TitleID": "100766",
+          "value": "2348-73725"
+        },
+        {
+          "TitleID": "10920",
+          "value": "0716-7100"
+        },
+        {
+          "TitleID": "217406",
+          "value": "0032-1185"
+        },
+        {
+          "TitleID": "6366",
+          "value": "1120-1630 (corrected)"
+        },
+        {
+          "TitleID": "176220",
+          "value": "0085-2998"
+        }
+      ]
+    }
+  },
+  "part_identifiers": {
+    "schemes": [
+      [
+        "BioStor",
+        278150
+      ],
+      [
+        "OAI",
+        37066
+      ],
+      [
+        "JSTOR",
+        8753
+      ],
+      [
+        "Wikidata",
+        1059
+      ],
+      [
+        "eLocator",
+        600
+      ],
+      [
+        "Soulsby",
+        452
+      ],
+      [
+        "ISSN",
+        222
+      ],
+      [
+        "TL2",
+        40
+      ],
+      [
+        "OCLC",
+        17
+      ],
+      [
+        "ISBN",
+        1
+      ]
+    ],
+    "checked": {
+      "OCLC": 17,
+      "ISSN": 222,
+      "ISBN": 1
+    },
+    "conformant": {
+      "OCLC": 17,
+      "ISSN": 222,
+      "ISBN": 1
+    },
+    "nonconformant_examples": {}
+  },
+  "creator_identifiers": {
+    "schemes": [
+      [
+        "Wikidata",
+        49584
+      ],
+      [
+        "VIAF",
+        46601
+      ],
+      [
+        "ORCID",
+        27282
+      ],
+      [
+        "DLC",
+        25237
+      ],
+      [
+        "SNAC ARK",
+        7708
+      ],
+      [
+        "ResearchGate Profile",
+        5585
+      ],
+      [
+        "Tropicos",
+        11
+      ]
+    ]
+  },
+  "item_rights": {
+    "total_items": 338342,
+    "copyright_status_values": [
+      [
+        "Not provided. Contact Holding Institution to verify copyright status.",
+        109171
+      ],
+      [
+        "Public domain. The BHL considers that this work is no longer under copyright protection.",
+        99021
+      ],
+      [
+        "In copyright. Digitized with the permission of the rights holder.",
+        46464
+      ],
+      [
+        "NOT_IN_COPYRIGHT",
+        43957
+      ],
+      [
+        "The contributing institution believes that this item is not in copyright",
+        8688
+      ],
+      [
+        "No known copyright restrictions as determined by scanning institution.",
+        5469
+      ],
+      [
+        "Not in copyright. The BHL knows of no copyright restrictions on this item.",
+        5220
+      ],
+      [
+        "In Copyright. Digitized with the permission of the rights holder",
+        3973
+      ],
+      [
+        "Public domain.  The BHL considers that this work is no longer under copyright protection.",
+        3207
+      ],
+      [
+        "Public domain. The BHL considers that this work is no longer under copyright protection",
+        3017
+      ],
+      [
+        "No known copyright restrictions as determined by scanning institution",
+        1178
+      ],
+      [
+        "Public domain. The Library considers that this work is no longer under copyright protection",
+        879
+      ],
+      [
+        "Permission to digitize granted by rights holder",
+        873
+      ],
+      [
+        "The Library of Congress is unaware of any copyright restrictions for this item.",
+        688
+      ],
+      [
+        "NOT IN COPYRIGHT",
+        598
+      ],
+      [
+        "In Copyright. Digitized with the permission of the rights holder.",
+        592
+      ],
+      [
+        "Permission_to_digitize_granted_by_rights_holder",
+        511
+      ],
+      [
+        "In copyright",
+        502
+      ],
+      [
+        "Public domain.. The BHL considers that this work is no longer under copyright protection.",
+        481
+      ],
+      [
+        "NIC",
+        324
+      ],
+      [
+        "Permissions to digitize granted by rights holder.",
+        161
+      ],
+      [
+        "In copyright. Digitized with permission of the University of Illinois Board of Trustees.  Contact digicc@library.illinois.edu for information.",
+        159
+      ],
+      [
+        "Not in copyright",
+        158
+      ],
+      [
+        "UConn holds permission from CAES to digitize and give open web access.",
+        146
+      ],
+      [
+        "In public domain. Work published prior to 1923.",
+        131
+      ],
+      [
+        "Public domain.  Published prior to 1923.",
+        128
+      ],
+      [
+        "Copyright American Museum of Natural History. Materials in this collection are made available for personal, non-commercial, and educational use. Images and text may not be used for any commercial purposes without prior written permission from the American Museum of Natural History.",
+        126
+      ],
+      [
+        "In copyright. Digitized with permission of rights holder",
+        120
+      ],
+      [
+        "This item is in the public domain.",
+        114
+      ],
+      [
+        "Permission to digitize granted by the rights holder",
+        110
+      ]
+    ],
+    "license_type_values": [
+      [
+        "(blank)",
+        288752
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+        25488
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+        10116
+      ],
+      [
+        "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        6900
+      ],
+      [
+        "https://creativecommons.org/licenses/by/4.0/",
+        4251
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc/3.0/",
+        1802
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+        234
+      ],
+      [
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        133
+      ],
+      [
+        "https://creativecommons.org/licenses/by-nc/2.0/",
+        101
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc-sa/4.0/\uffa0",
+        94
+      ],
+      [
+        "https://creativecommons.org/share-your-work/public-domain/cc0/",
+        72
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        58
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        45
+      ],
+      [
+        "http://creativecommons.org/licenses/by-sa/4.0/",
+        38
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        35
+      ],
+      [
+        "http://creativecommons.org/licenses/by-sa/3.0/",
+        33
+      ],
+      [
+        "https://biodiversitylibrary.org/permissions",
+        33
+      ],
+      [
+        "https://biodivlib.wikispaces.com/Permissions",
+        30
+      ],
+      [
+        "http://creativecommons.org/licenses/by/4.0/",
+        24
+      ],
+      [
+        "http://creativecommons.org/licenses/by/4.0",
+        20
+      ],
+      [
+        "http://creativecommons.org/publicdomain/mark/1.0/",
+        17
+      ],
+      [
+        "https://creativecommons.org/publicdomain/mark/1.0/",
+        16
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc/4.0/",
+        9
+      ],
+      [
+        "http://creativecommons.org/licenses/publicdomain/",
+        8
+      ],
+      [
+        "http://creativecommons.org/licenses/by/3.0/us/",
+        7
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc/4.0",
+        5
+      ],
+      [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        4
+      ],
+      [
+        "NOT_IN_COPYRIGHT",
+        3
+      ],
+      [
+        "http://creativecommons.org/licenses/by/3.0/",
+        2
+      ],
+      [
+        "http://creativecommons.org/licenses/by-nc-sa/3.0",
+        2
+      ]
+    ],
+    "rights_statement_top": [
+      [
+        "(blank)",
+        201160
+      ],
+      [
+        "The contributing institution believes that this item is not in copyright",
+        74257
+      ],
+      [
+        "https://biodiversitylibrary.org/permissions",
+        23967
+      ],
+      [
+        "http://biodiversitylibrary.org/permissions",
+        21272
+      ],
+      [
+        "https://www.biodiversitylibrary.org/permissions/",
+        9278
+      ],
+      [
+        "The contributing institution believes that this item is not in copyright.",
+        2372
+      ],
+      [
+        "<a href=\"http://creativecommons.org/publicdomain/mark/1.0/\" rel=\"nofollow\">This ",
+        1895
+      ],
+      [
+        "https://www.biodiversitylibrary.org/permissions",
+        1161
+      ],
+      [
+        "http://www.biodiversitylibrary.org/permissions/",
+        1047
+      ],
+      [
+        "Darwin Estate and Cambridge University Library",
+        501
+      ],
+      [
+        "http://www.biodiversitylibrary.org/permissions",
+        266
+      ],
+      [
+        "<a href=\"https://creativecommons.org/licenses/by-nc/3.0/\" rel=\"nofollow\">You hav",
+        258
+      ],
+      [
+        "<a href=\"http://creativecommons.org/publicdomain/mark/1.0/\" rel=\"ugc nofollow\">T",
+        212
+      ],
+      [
+        "For information about copyright and permission to reproduce, see \u201cImportant Noti",
+        94
+      ],
+      [
+        "http://biodiversitylibrary.org/permissions\uffa0",
+        94
+      ]
+    ],
+    "items_with_rights_holder": 47974,
+    "items_with_no_rights_fields_at_all": 1,
+    "top_institutions": [
+      [
+        "U.S. Department of Agriculture, National Agricultural Library",
+        110954
+      ],
+      [
+        "Smithsonian Libraries and Archives",
+        30537
+      ],
+      [
+        "American Museum of Natural History Library",
+        14750
+      ],
+      [
+        "MBLWHOI Library",
+        12859
+      ],
+      [
+        "Harvard University, Museum of Comparative Zoology, Ernst Mayr Library",
+        12176
+      ],
+      [
+        "University of California Libraries",
+        11404
+      ],
+      [
+        "New York Botanical Garden, LuEsther T. Mertz Library",
+        11225
+      ],
+      [
+        "Natural History Museum Library, London",
+        10235
+      ],
+      [
+        "University Library, University of Illinois Urbana Champaign",
+        8906
+      ],
+      [
+        "Missouri Botanical Garden, Peter H. Raven Library",
+        8491
+      ],
+      [
+        "Biblioteca Digital del Real Jard\u00edn Bot\u00e1nico de Madrid",
+        6920
+      ],
+      [
+        "Library of Congress",
+        6841
+      ],
+      [
+        "Cornell University Library",
+        6769
+      ],
+      [
+        "University of Toronto - Gerstein Science Information Centre",
+        5955
+      ],
+      [
+        "Smithsonian Institution Archives",
+        4695
+      ]
+    ]
+  },
+  "coverage": {
+    "titles_total": 205020,
+    "titles_with_doi": 124466,
+    "doi_title_rows_not_in_title_table": 0,
+    "parts_total": 439218,
+    "parts_with_doi": 181652
+  }
+}

@@ -1,0 +1,58 @@
+# Verified SPARQL queries: each re-derives one finding from the graph.
+# Run against graph/*.ttl. Prefixes:
+# PREFIX biodiv: <https://gov.tesseract.academy/def/biodiversity#>
+# PREFIX scheme: <https://gov.tesseract.academy/def/biodiversity/scheme#>
+
+# Q1. Non-conformant identifier assertions per scheme, with reasons.
+# (graph/identifiers.ttl)
+PREFIX biodiv: <https://gov.tesseract.academy/def/biodiversity#>
+SELECT ?scheme ?reason (COUNT(?a) AS ?n) WHERE {
+  ?a a biodiv:IdentifierAssertion ;
+     biodiv:usesScheme ?scheme ;
+     biodiv:schemeConformant false ;
+     biodiv:nonConformanceReason ?reason .
+} GROUP BY ?scheme ?reason ORDER BY DESC(?n)
+
+# Q2. Identifiers asserted for more than one resource.
+# (graph/identifiers.ttl)
+# PREFIX biodiv: <https://gov.tesseract.academy/def/biodiversity#>
+# SELECT ?value (MAX(?c) AS ?cardinality) WHERE {
+#   ?a a biodiv:IdentifierAssertion ;
+#      biodiv:identifierValue ?value ;
+#      biodiv:resolutionCardinality ?c .
+#   FILTER (?c > 1)
+# } GROUP BY ?value ORDER BY DESC(?cardinality)
+
+# Q3. Items without a machine-actionable licence, by register.
+# (graph/rights.ttl)
+# SELECT ?register (COUNT(?a) AS ?n) WHERE {
+#   ?a a biodiv:RightsAssertion ;
+#      biodiv:assertedBy ?register ;
+#      biodiv:machineActionableLicense false .
+# } GROUP BY ?register
+
+# Q4. Licence IRIs containing characters outside printable ASCII.
+# (graph/rights.ttl)
+# SELECT ?iri (COUNT(?a) AS ?n) WHERE {
+#   ?a a biodiv:RightsAssertion ;
+#      biodiv:licenseIRI ?iri .
+#   FILTER (REGEX(?iri, "[^\\x20-\\x7E]"))
+# } GROUP BY ?iri
+
+# Q5. Dead canonical URLs per register, with controls alongside.
+# (graph/registers.ttl)
+# SELECT ?register (SUM(IF(?s >= 400, 1, 0)) AS ?dead) (COUNT(?o) AS ?sampled) WHERE {
+#   ?o a biodiv:ResolutionObservation ;
+#      biodiv:observedFor ?register ;
+#      biodiv:httpStatus ?s .
+# } GROUP BY ?register
+
+# Q6. Snapshot staleness of each register mirror.
+# (graph/registers.ttl)
+# SELECT ?mirror ?date ?days ?count WHERE {
+#   ?snap a biodiv:RegisterSnapshot ;
+#         biodiv:heldBy ?mirror ;
+#         biodiv:snapshotDate ?date ;
+#         biodiv:stalenessDays ?days ;
+#         biodiv:recordCount ?count .
+# } ORDER BY DESC(?days)

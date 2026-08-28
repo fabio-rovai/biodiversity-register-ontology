@@ -1,0 +1,256 @@
+{
+  "total_datasets": 294,
+  "license_ids": [
+    [
+      "cc-by",
+      89
+    ],
+    [
+      "notspecified",
+      46
+    ],
+    [
+      "cc-zero",
+      41
+    ],
+    [
+      "odc-by",
+      26
+    ],
+    [
+      "cc-by-sa",
+      18
+    ],
+    [
+      "CC-BY-SA-4.0",
+      15
+    ],
+    [
+      "CC-BY-4.0",
+      15
+    ],
+    [
+      "cc-nc",
+      11
+    ],
+    [
+      "ODC-BY-1.0",
+      11
+    ],
+    [
+      "CC0-1.0",
+      5
+    ],
+    [
+      "(none)",
+      5
+    ],
+    [
+      "CC-BY-NC-4.0",
+      3
+    ],
+    [
+      "other-open",
+      3
+    ],
+    [
+      "other-nc",
+      2
+    ],
+    [
+      "ODbL-1.0",
+      1
+    ],
+    [
+      "odc-odbl",
+      1
+    ],
+    [
+      "CC BY-NC 4.0",
+      1
+    ],
+    [
+      "other-at",
+      1
+    ]
+  ],
+  "datasets_without_license_url": 108,
+  "open_datasets": 179,
+  "doi_status_values": {
+    "True": 294
+  },
+  "datasets_with_doi": 294,
+  "dois": [
+    "10.5519/0000082",
+    "10.5519/0001289",
+    "10.5519/0001640",
+    "10.5519/0001936",
+    "10.5519/0002120"
+  ],
+  "filled_author": 294,
+  "filled_author_email": 0,
+  "filled_maintainer": 32,
+  "filled_maintainer_email": 35,
+  "filled_update_frequency": 87,
+  "filled_temporal_extent": 117,
+  "filled_spatial": 1,
+  "filled_version": 0,
+  "filled_url": 0,
+  "update_frequency_values": [
+    [
+      "(none)",
+      207
+    ],
+    [
+      "monthly",
+      31
+    ],
+    [
+      "annual",
+      23
+    ],
+    [
+      "never",
+      19
+    ],
+    [
+      "weekly",
+      6
+    ],
+    [
+      "discontinued",
+      3
+    ],
+    [
+      "quarterly",
+      3
+    ],
+    [
+      "daily",
+      2
+    ]
+  ],
+  "datasets_without_description": 0,
+  "datasets_description_under_100_chars": 29,
+  "dataset_categories": [
+    [
+      "Research",
+      151
+    ],
+    [
+      "Collections",
+      126
+    ],
+    [
+      "(none)",
+      10
+    ],
+    [
+      "Citizen Science",
+      7
+    ],
+    [
+      "Public Engagement",
+      2
+    ],
+    [
+      "Corporate",
+      1
+    ]
+  ],
+  "resources": {
+    "total": 1293,
+    "no_format": 243,
+    "no_size": 634,
+    "no_description": 460,
+    "formats": [
+      [
+        "CSV",
+        292
+      ],
+      [
+        "(blank)",
+        243
+      ],
+      [
+        "ZIP",
+        86
+      ],
+      [
+        "PTS",
+        66
+      ],
+      [
+        "NEX",
+        64
+      ],
+      [
+        "PDF",
+        63
+      ],
+      [
+        "XLSX",
+        57
+      ],
+      [
+        "TRE",
+        48
+      ],
+      [
+        "TXT",
+        42
+      ],
+      [
+        "RDS",
+        42
+      ],
+      [
+        "STL",
+        35
+      ],
+      [
+        "R",
+        34
+      ],
+      [
+        "TIFF",
+        31
+      ],
+      [
+        "MP3",
+        26
+      ],
+      [
+        "FASTA",
+        16
+      ],
+      [
+        "XLS",
+        15
+      ],
+      [
+        "XML",
+        11
+      ],
+      [
+        "DOCX",
+        10
+      ],
+      [
+        "PHYLIP",
+        10
+      ],
+      [
+        "JPEG",
+        10
+      ]
+    ],
+    "url_schemes": {
+      "https": 1266,
+      "http": 22,
+      "(other)": 5
+    }
+  },
+  "fully_ready": 8,
+  "readiness_criteria": "license_url AND doi AND a contact email AND description >= 100 chars AND update_frequency"
+}

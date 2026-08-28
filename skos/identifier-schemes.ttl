@@ -1,0 +1,89 @@
+@prefix scheme: <https://gov.tesseract.academy/def/biodiversity/scheme#> .
+@prefix biodiv: <https://gov.tesseract.academy/def/biodiversity#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+scheme:IdentifierSchemeRegistry a skos:ConceptScheme ;
+    dcterms:title "Biodiversity identifier scheme registry"@en ;
+    dcterms:description "Each identifier scheme declares its own conformance rules as data: syntax pattern, checksum algorithm, and canonical resolution route. The pipeline validates every asserted identifier against its declared scheme instead of hard-coding rules."@en .
+
+scheme:pattern a owl:DatatypeProperty ;
+    rdfs:label "syntax pattern"@en ;
+    rdfs:comment "Anchored regular expression a conformant value must match."@en .
+
+scheme:checksumAlgorithm a owl:DatatypeProperty ;
+    rdfs:label "checksum algorithm"@en .
+
+scheme:resolutionTemplate a owl:DatatypeProperty ;
+    rdfs:label "resolution template"@en ;
+    rdfs:comment "URL template into which a conformant value substitutes for {id}."@en .
+
+scheme:DOI a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "DOI"@en ;
+    scheme:pattern "^10\\.\\d{4,9}/\\S+$" ;
+    scheme:resolutionTemplate "https://doi.org/{id}" ;
+    skos:note "The DOI display guideline says a DOI is stored bare, without the https://doi.org/ resolver prefix. Values carrying the resolver prefix are recorded as non-conformant with reason resolver-prefix."@en .
+
+scheme:ISSN a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "ISSN"@en ;
+    scheme:pattern "^\\d{4}-?\\d{3}[\\dXx]$" ;
+    scheme:checksumAlgorithm "ISO 3297 modulus-11 weighted check digit" ;
+    scheme:resolutionTemplate "https://portal.issn.org/resource/ISSN/{id}" .
+
+scheme:ISBN a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "ISBN"@en ;
+    scheme:pattern "^(\\d{9}[\\dXx]|\\d{13})$" ;
+    scheme:checksumAlgorithm "ISBN-10 modulus-11 or ISBN-13 (EAN) modulus-10" .
+
+scheme:OCLC a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "OCLC control number"@en ;
+    scheme:pattern "^(ocm|ocn|on)?\\d{1,12}$" ;
+    scheme:resolutionTemplate "https://search.worldcat.org/title/{id}" .
+
+scheme:ZooBankUUID a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "ZooBank act UUID"@en ;
+    scheme:pattern "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$" ;
+    scheme:resolutionTemplate "https://zoobank.org/{id}" ;
+    skos:note "Also expressed as urn:lsid:zoobank.org:act:{id}. The register's export contains identifiers that do not match the scheme's own pattern."@en .
+
+scheme:AphiaID a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "AphiaID"@en ;
+    scheme:pattern "^\\d+$" ;
+    scheme:resolutionTemplate "https://www.marinespecies.org/rest/AphiaRecordByAphiaID/{id}" .
+
+scheme:IPNIID a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "IPNI name identifier"@en ;
+    scheme:pattern "^\\d+-\\d+$" ;
+    scheme:resolutionTemplate "https://www.ipni.org/n/{id}" .
+
+scheme:BHLTitleID a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "BHL title identifier"@en ;
+    scheme:pattern "^\\d+$" ;
+    scheme:resolutionTemplate "https://www.biodiversitylibrary.org/bibliography/{id}" .
+
+scheme:BHLPartID a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "BHL part identifier"@en ;
+    scheme:pattern "^\\d+$" ;
+    scheme:resolutionTemplate "https://www.biodiversitylibrary.org/part/{id}" .
+
+scheme:CKANLicenseID a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "CKAN licence identifier"@en ;
+    skos:note "CKAN ships a controlled licence list (cc-by, cc-zero, odc-by and so on). A catalogue that also stores SPDX-style identifiers (CC-BY-4.0) or free text for the same licences has an uncontrolled vocabulary on a controlled field."@en .
+
+scheme:LSID a skos:Concept ;
+    skos:inScheme scheme:IdentifierSchemeRegistry ;
+    skos:prefLabel "Life Science Identifier"@en ;
+    scheme:pattern "^urn:lsid:[A-Za-z0-9.-]+:[A-Za-z0-9]+:[A-Za-z0-9-]+(:[A-Za-z0-9.]+)?$" .

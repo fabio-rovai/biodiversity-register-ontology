@@ -1,0 +1,6 @@
+raw/
+graph/identifiers.ttl
+graph/rights.ttl
+__pycache__/
+.pytest_cache/
+*.pyc

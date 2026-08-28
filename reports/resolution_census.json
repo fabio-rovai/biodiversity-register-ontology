@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-28",
+  "seed": 42,
+  "bhl_doi_handles": {
+    "own_prefix_sample": 40,
+    "own_prefix_registered": 40,
+    "own_prefix_misses": [],
+    "external_sample": 25,
+    "external_registered": 24,
+    "external_misses": [
+      "10.1636/0161-8202(2000)028[0043:efabsc]2.0.co;2"
+    ],
+    "bad_syntax_checked": {
+      "100": 3,
+      "None": 1
+    }
+  },
+  "zoobank": {
+    "register_records": 399326,
+    "non_uuid_ids": 50,
+    "sample": 50,
+    "status_histogram": {
+      "404": 50
+    },
+    "resolved_200": 0
+  },
+  "nhm_dois": {
+    "sample": 25,
+    "registered": 25,
+    "misses": []
+  },
+  "controls": {
+    "worms_ok": "10/10",
+    "ipni_ok": "5/5"
+  }
+}

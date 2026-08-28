@@ -1,0 +1,78 @@
+{
+  "identifiers_triples": 3287888,
+  "doi_total": {
+    "set_based": 306173,
+    "sparql": 306173,
+    "agree": true
+  },
+  "doi_nonconformant": {
+    "set_based": 13,
+    "sparql": 13,
+    "agree": true
+  },
+  "doi_multiply_assigned_assertions": {
+    "set_based": 351,
+    "sparql": 351,
+    "agree": true
+  },
+  "ISBN_nonconformant": {
+    "set_based": 912,
+    "sparql": 912,
+    "agree": true
+  },
+  "ISSN_nonconformant": {
+    "set_based": 6,
+    "sparql": 6,
+    "agree": true
+  },
+  "OCLC_nonconformant": {
+    "set_based": 2652,
+    "sparql": 2652,
+    "agree": true
+  },
+  "rights_triples": 2022546,
+  "items_without_machine_license": {
+    "set_based": 283090,
+    "sparql": 283090,
+    "agree": true
+  },
+  "items_license_invisible_chars": {
+    "set_based": 84,
+    "sparql": 84,
+    "agree": true
+  },
+  "nhm_without_license_url": {
+    "set_based": 108,
+    "sparql": 108,
+    "agree": true
+  },
+  "registers_triples": 807,
+  "zoobank_dead_observations": {
+    "set_based": 50,
+    "sparql": 50,
+    "agree": true
+  },
+  "observations_total": {
+    "set_based": 159,
+    "sparql": 159,
+    "agree": true
+  },
+  "shacl": {
+    "layer1-structural": {
+      "conforms": true,
+      "violations": 0,
+      "seconds": 1.5
+    },
+    "layer2-scheme-conformance": {
+      "conforms": false,
+      "violations": 3669,
+      "seconds": 64.0
+    },
+    "layer3-cross-source": {
+      "conforms": false,
+      "violations": 408,
+      "seconds": 24.2
+    }
+  },
+  "expected_l2_note": "layer2 = nonconformant-assertion violations x1 + resolver-prefix x1 + invisible-licence x1; reconciled in governance table"
+}

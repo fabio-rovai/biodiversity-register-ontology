@@ -1,0 +1,204 @@
+@prefix biodiv: <https://gov.tesseract.academy/def/biodiversity#> .
+@prefix scheme: <https://gov.tesseract.academy/def/biodiversity/scheme#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://gov.tesseract.academy/def/biodiversity>
+    a owl:Ontology ;
+    dcterms:title "Biodiversity Register Ontology (BDRO)"@en ;
+    dcterms:description "An OWL 2 ontology for representing what biodiversity registers actually assert: identifier assertions with per-scheme conformance, rights assertions with their verbatim source strings, dereference observations, and dated register snapshots. Status and identity are never properties of a thing; they are dated claims by a named register."@en ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:creator "Fabio Rovai" ;
+    owl:versionInfo "0.1.0" .
+
+#################################################################
+# Registers and resources
+#################################################################
+
+biodiv:Register a owl:Class ;
+    rdfs:label "Register"@en ;
+    rdfs:comment "A system of record that publishes assertions about biodiversity resources: a nomenclature register, a digital library, an institutional data catalogue, or an aggregator republishing one of these."@en .
+
+biodiv:RegisterMirror a owl:Class ;
+    rdfs:subClassOf biodiv:Register ;
+    rdfs:label "Register mirror"@en ;
+    rdfs:comment "A register whose content is a republication of another register's content rather than original assertions."@en .
+
+biodiv:RegisteredResource a owl:Class ;
+    rdfs:label "Registered resource"@en ;
+    rdfs:comment "Anything a register asserts an identifier or a rights status for."@en .
+
+biodiv:BibliographicTitle a owl:Class ;
+    rdfs:subClassOf biodiv:RegisteredResource ;
+    rdfs:label "Bibliographic title"@en ;
+    rdfs:comment "A monograph or serial as catalogued: the unit that carries title-level identifiers in the BHL export."@en .
+
+biodiv:BibliographicPart a owl:Class ;
+    rdfs:subClassOf biodiv:RegisteredResource ;
+    rdfs:label "Bibliographic part"@en ;
+    rdfs:comment "An article, chapter, or treatment within a title."@en .
+
+biodiv:DigitisedItem a owl:Class ;
+    rdfs:subClassOf biodiv:RegisteredResource ;
+    rdfs:label "Digitised item"@en ;
+    rdfs:comment "A physical volume as scanned: the unit that carries rights metadata in the BHL export."@en .
+
+biodiv:DatasetDescription a owl:Class ;
+    rdfs:subClassOf biodiv:RegisteredResource ;
+    rdfs:label "Dataset description"@en ;
+    rdfs:comment "A dataset record in an institutional catalogue."@en .
+
+biodiv:NomenclaturalActRecord a owl:Class ;
+    rdfs:subClassOf biodiv:RegisteredResource ;
+    rdfs:label "Nomenclatural act record"@en ;
+    rdfs:comment "A record of a nomenclatural act or name usage in a nomenclature register."@en .
+
+#################################################################
+# Reified assertions
+#################################################################
+
+biodiv:IdentifierAssertion a owl:Class ;
+    rdfs:label "Identifier assertion"@en ;
+    rdfs:comment "A dated claim by a named register that a resource bears an identifier in a scheme. The claim, not the identifier, is the unit of record: the same resource can carry conflicting assertions from different registers, and one identifier can be asserted for two resources. Assertion identity includes the assertion date."@en .
+
+biodiv:RightsAssertion a owl:Class ;
+    rdfs:label "Rights assertion"@en ;
+    rdfs:comment "A dated claim by a named register about the copyright status or licence of a resource. The verbatim source string is retained: normalising it destroys the evidence of vocabulary drift."@en .
+
+biodiv:ResolutionObservation a owl:Class ;
+    rdfs:label "Resolution observation"@en ;
+    rdfs:comment "The observed outcome of dereferencing an identifier's canonical URL on a stated date."@en .
+
+biodiv:RegisterSnapshot a owl:Class ;
+    rdfs:label "Register snapshot"@en ;
+    rdfs:comment "A dated copy of one register held by another. The gap between snapshot date and observation date is the staleness of the machine-readable record."@en .
+
+#################################################################
+# Object properties
+#################################################################
+
+biodiv:assertedBy a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( biodiv:IdentifierAssertion biodiv:RightsAssertion ) ] ;
+    rdfs:range biodiv:Register ;
+    rdfs:label "asserted by"@en .
+
+biodiv:aboutResource a owl:ObjectProperty ;
+    rdfs:range biodiv:RegisteredResource ;
+    rdfs:label "about resource"@en .
+
+biodiv:usesScheme a owl:ObjectProperty ;
+    rdfs:domain biodiv:IdentifierAssertion ;
+    rdfs:range skos:Concept ;
+    rdfs:label "uses scheme"@en .
+
+biodiv:observedFor a owl:ObjectProperty ;
+    rdfs:domain biodiv:ResolutionObservation ;
+    rdfs:range biodiv:Register ;
+    rdfs:label "observed for register"@en .
+
+biodiv:snapshotOf a owl:ObjectProperty ;
+    rdfs:domain biodiv:RegisterSnapshot ;
+    rdfs:range biodiv:Register ;
+    rdfs:label "snapshot of"@en .
+
+biodiv:heldBy a owl:ObjectProperty ;
+    rdfs:domain biodiv:RegisterSnapshot ;
+    rdfs:range biodiv:Register ;
+    rdfs:label "held by"@en .
+
+#################################################################
+# Data properties
+#################################################################
+
+biodiv:identifierValue a owl:DatatypeProperty ;
+    rdfs:domain biodiv:IdentifierAssertion ; rdfs:range xsd:string ;
+    rdfs:label "identifier value"@en ;
+    rdfs:comment "The identifier exactly as the register published it, byte for byte."@en .
+
+biodiv:schemeConformant a owl:DatatypeProperty ;
+    rdfs:domain biodiv:IdentifierAssertion ; rdfs:range xsd:boolean ;
+    rdfs:label "scheme conformant"@en .
+
+biodiv:nonConformanceReason a owl:DatatypeProperty ;
+    rdfs:domain biodiv:IdentifierAssertion ; rdfs:range xsd:string ;
+    rdfs:label "non-conformance reason"@en .
+
+biodiv:assertedDate a owl:DatatypeProperty ;
+    rdfs:range xsd:date ;
+    rdfs:label "asserted date"@en .
+
+biodiv:rawRightsString a owl:DatatypeProperty ;
+    rdfs:domain biodiv:RightsAssertion ; rdfs:range xsd:string ;
+    rdfs:label "raw rights string"@en .
+
+biodiv:licenseIRI a owl:DatatypeProperty ;
+    rdfs:domain biodiv:RightsAssertion ; rdfs:range xsd:string ;
+    rdfs:label "licence IRI"@en ;
+    rdfs:comment "The licence IRI as published, unnormalised. Kept as a string, not a resource, because the defect classes live in the lexical form."@en .
+
+biodiv:machineActionableLicense a owl:DatatypeProperty ;
+    rdfs:domain biodiv:RightsAssertion ; rdfs:range xsd:boolean ;
+    rdfs:label "machine-actionable licence"@en .
+
+biodiv:httpStatus a owl:DatatypeProperty ;
+    rdfs:domain biodiv:ResolutionObservation ; rdfs:range xsd:integer ;
+    rdfs:label "HTTP status"@en .
+
+biodiv:observationDate a owl:DatatypeProperty ;
+    rdfs:range xsd:date ;
+    rdfs:label "observation date"@en .
+
+biodiv:observedUrl a owl:DatatypeProperty ;
+    rdfs:domain biodiv:ResolutionObservation ; rdfs:range xsd:anyURI ;
+    rdfs:label "observed URL"@en .
+
+biodiv:snapshotDate a owl:DatatypeProperty ;
+    rdfs:domain biodiv:RegisterSnapshot ; rdfs:range xsd:date ;
+    rdfs:label "snapshot date"@en .
+
+biodiv:recordCount a owl:DatatypeProperty ;
+    rdfs:domain biodiv:RegisterSnapshot ; rdfs:range xsd:integer ;
+    rdfs:label "record count"@en .
+
+biodiv:resolutionCardinality a owl:DatatypeProperty ;
+    rdfs:domain biodiv:IdentifierAssertion ; rdfs:range xsd:integer ;
+    rdfs:label "resolution cardinality"@en ;
+    rdfs:comment "The number of distinct resources this identifier value is asserted for across the register. A value above one means the identifier cannot resolve to its referent."@en .
+
+biodiv:stalenessDays a owl:DatatypeProperty ;
+    rdfs:domain biodiv:RegisterSnapshot ; rdfs:range xsd:integer ;
+    rdfs:label "staleness in days"@en ;
+    rdfs:comment "Days between the snapshot date and the observation date on which staleness was measured."@en .
+
+#################################################################
+# Register individuals
+#################################################################
+
+biodiv:BHL a biodiv:Register ;
+    rdfs:label "Biodiversity Heritage Library"@en ;
+    rdfs:seeAlso <https://www.biodiversitylibrary.org/> .
+
+biodiv:ZooBank a biodiv:Register ;
+    rdfs:label "ZooBank (Official Register of Zoological Nomenclature)"@en ;
+    rdfs:seeAlso <https://zoobank.org/> .
+
+biodiv:NHMDataPortal a biodiv:Register ;
+    rdfs:label "Natural History Museum Data Portal"@en ;
+    rdfs:seeAlso <https://data.nhm.ac.uk/> .
+
+biodiv:GBIFChecklist a biodiv:RegisterMirror ;
+    rdfs:label "GBIF checklist copy of ZooBank"@en .
+
+biodiv:ChecklistBank a biodiv:RegisterMirror ;
+    rdfs:label "ChecklistBank copy of ZooBank"@en .
+
+biodiv:WoRMS a biodiv:Register ;
+    rdfs:label "World Register of Marine Species"@en ;
+    rdfs:seeAlso <https://www.marinespecies.org/> .
+
+biodiv:IPNI a biodiv:Register ;
+    rdfs:label "International Plant Names Index"@en ;
+    rdfs:seeAlso <https://www.ipni.org/> .

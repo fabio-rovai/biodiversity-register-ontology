@@ -1,0 +1,53 @@
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix biodiv: <https://gov.tesseract.academy/def/biodiversity#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+# Layer 3: cross-source rules. Cardinality and staleness values are
+# materialised by the pipeline (set-based), and the shapes re-derive the
+# findings from recorded state alone.
+
+# One identifier asserted for more than one resource cannot resolve to
+# its referent.
+biodiv:MultiplyAssignedIdentifierShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:IdentifierAssertion ;
+    sh:sparql [
+        sh:message "Identifier is asserted for more than one distinct resource." ;
+        sh:select """
+            SELECT $this ?value WHERE {
+                $this <https://gov.tesseract.academy/def/biodiversity#resolutionCardinality> ?c .
+                $this <https://gov.tesseract.academy/def/biodiversity#identifierValue> ?value .
+                FILTER (?c > 1)
+            }
+        """ ;
+    ] .
+
+# A machine-readable mirror more than a year staler than the register it
+# mirrors is the register's effective public record.
+biodiv:StaleSnapshotShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:RegisterSnapshot ;
+    sh:sparql [
+        sh:message "Register snapshot is more than 365 days old at observation time." ;
+        sh:select """
+            SELECT $this ?days WHERE {
+                $this <https://gov.tesseract.academy/def/biodiversity#stalenessDays> ?days .
+                FILTER (?days > 365)
+            }
+        """ ;
+    ] .
+
+# A register none of whose sampled canonical URLs dereference has no
+# working machine interface.
+biodiv:DeadResolutionShape
+    a sh:NodeShape ;
+    sh:targetClass biodiv:ResolutionObservation ;
+    sh:sparql [
+        sh:message "Canonical register URL did not dereference (HTTP status >= 400)." ;
+        sh:select """
+            SELECT $this ?status WHERE {
+                $this <https://gov.tesseract.academy/def/biodiversity#httpStatus> ?status .
+                FILTER (?status >= 400)
+            }
+        """ ;
+    ] .
