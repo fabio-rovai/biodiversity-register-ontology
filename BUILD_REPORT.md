@@ -74,8 +74,11 @@ Not fetched: the 2.4 GB `data.zip` (the individual TSVs cover every table used);
 ### F8. Null result, reported as one: the ZooBank mirror's internal hierarchy is clean
 - Across all 399,326 records in the ChecklistBank snapshot: zero duplicate identifiers, zero orphan parent references, zero self-parenting. 13 records lack authorship. ZooBank's problem is availability and staleness, not content integrity. Fairness demands this stated as prominently as F1.
 
-### F9. NHM resource liveness
-- See `reports/resolution_deep.json` (full census of every resource URL on the portal, observation-cached).
+### F9. NHM resource access: open metadata, closed files
+- Full census of all 1,288 resource URLs on the portal, dereferenced with a plain curl client on 28 Aug 2026: 49 returned 200, 23 returned 202, **1,195 returned HTTP 403**, 7 returned 404, 2 returned 401, and 12 timed out.
+- Framed precisely, per the join-not-entity rule: a 403 to a default curl client is a statement about programmatic access, not about the file. The same portal's metadata API answers the same client without restriction. So the catalogue's metadata layer is machine-open while its file layer refuses the default machine client, which is a direct input to any "technically accessible data product" assessment.
+- The 7 404s and 12 timeouts are candidate genuine defects; row-level list in `reports/nhm_dead_resources.json`.
+- ORCID corroboration from the same pass: the 3 checksum-failing ORCIDs return 404 from the ORCID registry (an identifier that fails its checksum can never have been issued), while a seeded control of 20 checksum-valid ORCIDs resolves 20/20.
 
 ## Verification achieved
 - `pipeline/05_verify.py`: all 11 dual computations agree (see `reports/verification.json`).
