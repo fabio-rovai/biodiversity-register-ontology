@@ -1,0 +1,43 @@
+{
+  "record_count": {
+    "set_based": 527127,
+    "sparql": 527127,
+    "agree": true
+  },
+  "orphan_parentNameUsageID": {
+    "set_based": 138,
+    "sparql": 138,
+    "agree": true
+  },
+  "orphan_originalNameUsageID": {
+    "set_based": 209,
+    "sparql": 209,
+    "agree": true
+  },
+  "broken_references_total": {
+    "set_based": 347,
+    "sparql": 347,
+    "agree": true
+  },
+  "control_sample_all_resolve": {
+    "set_based": 5000,
+    "sparql": 5000,
+    "agree": true
+  },
+  "dead_act_urls": {
+    "set_based": 50,
+    "sparql": 50,
+    "agree": true
+  },
+  "resolution_sample_size": {
+    "set_based": 50,
+    "sparql": 50,
+    "agree": true
+  },
+  "open_ontologies": {
+    "validate": "{\"ok\":true,\"statements\":48381,\"triples\":48367}",
+    "lint": "{\"issue_count\":0,\"issues\":[],\"suppressed_count\":0}",
+    "validate_ontology": "{\"ok\":true,\"statements\":181,\"triples\":181}"
+  },
+  "failures": []
+}

@@ -1,0 +1,103 @@
+{
+  "observed_at": "2026-08-30T09:12:25+00:00",
+  "archive_bytes": 81604497,
+  "archive_sha256": "f1ddc73d00a8598f7846fefc3ec83d2c46792543809dba88c529c93fd191558e",
+  "eml_pubDate": "2026-08-29",
+  "prior_snapshots": {
+    "checklistbank_2037": {
+      "records": 399326,
+      "pubDate": "2023-01-09"
+    },
+    "gbif_c8227bb4": {
+      "records": 478746,
+      "pubDate": "2025-03-28"
+    }
+  },
+  "rows": 527127,
+  "distinct_taxonID": 527127,
+  "duplicate_taxonID_values": 0,
+  "duplicate_surplus_rows": 0,
+  "id_vs_taxonID_mismatch": 0,
+  "nonuuid_taxonID": 0,
+  "nonuuid_examples": [],
+  "rows_with_parent": 299872,
+  "orphan_parentNameUsageID": 138,
+  "orphan_parent_examples": [
+    "00527772-310f-40ed-912d-6d4916617388",
+    "00a598f7-ebcd-4d86-bd45-43abdc1f3cbc",
+    "014a06ea-d69f-44a9-81e9-e1daacfe3a64",
+    "015ce52a-fe25-4746-a636-da995b8d77a6",
+    "05397cc1-8389-42b5-9c4a-ab0262583153",
+    "05718656-34e7-49a0-98d9-581f11b17874",
+    "080f1d9a-0b31-4e71-9360-1055e1531e42",
+    "0e63b92a-c13d-4377-8f6b-a37964543107",
+    "110bd758-5fae-4492-b030-495e3db6beb6",
+    "127e69c7-ce39-480b-9cf1-23c188d34804",
+    "131705b7-8bd1-4983-a8b3-84d4d26284d1",
+    "13d5efdd-c52c-4c10-a8db-f886a3c18bef",
+    "188ddd28-b497-444b-9987-e71b1e09d534",
+    "19bdd6a1-c747-4995-8526-cc3f6751b1f1",
+    "19c2f421-b96c-42a2-8253-e4d71aa9d3b6",
+    "1b179bcf-aa2a-48d9-815e-b5de80d55818",
+    "1b205444-ea3f-4243-b5f7-dc4cada2600b",
+    "1b25e664-a87f-44e6-b68e-034701b0200e",
+    "1c078892-3da7-45ed-be20-937f7a5fcbd4",
+    "1cfaf62d-5a04-4c4f-b494-102b9a764403"
+  ],
+  "rows_with_acceptedNameUsageID": 527127,
+  "orphan_acceptedNameUsageID": 0,
+  "orphan_accepted_examples": [],
+  "rows_with_originalNameUsageID": 527127,
+  "orphan_originalNameUsageID": 209,
+  "self_parenting": 0,
+  "distinct_nameAccordingToID": 93842,
+  "distinct_namePublishedInID": 93528,
+  "nameAccordingToID_also_a_taxonID": 0,
+  "parent_chain_cycles": 0,
+  "parent_chain_cycle_examples": [],
+  "license_values": {
+    "http://creativecommons.org/publicdomain/zero/1.0": 527127
+  },
+  "taxonomicStatus_values": {
+    "accepted": 527106,
+    "invalid": 21
+  },
+  "nomenclaturalCode_values": {
+    "ICZN": 527127
+  },
+  "taxonRank_values": {
+    "species": 283877,
+    "genus": 223018,
+    "family": 6857,
+    "subgenus": 6556,
+    "subspecies": 3137,
+    "subfamily": 1048,
+    "variety": 987,
+    "tribe": 605,
+    "subtribe": 253,
+    "natio": 137,
+    "form": 127,
+    "order": 105,
+    "section": 86,
+    "superfamily": 83,
+    "group[genus]": 38
+  },
+  "references_hosts": {
+    "zoobank.org": 527127
+  },
+  "references_missing": 0,
+  "references_bad_form": 0,
+  "no_authorship": 63582,
+  "blank_scientificName": 5,
+  "modified_unparseable": 0,
+  "modified_in_future": 0,
+  "modified_min": "2007-07-05T11:56:43",
+  "modified_max": "2026-08-23T01:23:20",
+  "namePublishedInYear_malformed": 0,
+  "namePublishedInYear_pre_1758": 0,
+  "namePublishedInYear_min": 1758,
+  "namePublishedInYear_max": 2026,
+  "namePublishedInYear_after_observation": 0,
+  "delta_vs_gbif_served": 48381,
+  "delta_vs_checklistbank": 127801
+}

@@ -91,3 +91,40 @@ Not fetched: the 2.4 GB `data.zip` (the individual TSVs cover every table used);
 - The SHACL gate runs over the defects partition plus a control sample, not the full 3.9M-triple graph; the full-graph numbers are covered by the dual computation instead. Stated here so nobody reads the SHACL report as a full-graph census.
 - Identifier conformance is measured only for schemes whose rules are declared in the SKOS registry (DOI, ISSN, ISBN, OCLC). MARC001, NAL, Wikidata and the rest are counted but not judged.
 - The ZooBank content census uses the ChecklistBank snapshot (CC0); its 2023 staleness means ZooBank-side counts describe the mirror, not today's register.
+
+## Recovery census, 30 August 2026 (correction to F1, stated on the page, never silent)
+
+On 29 August 2026 the ZooBank registrar rebuilt the Bishop Museum IPT from scratch, two days after the 28 August census recorded it as returning 404 for the resource page, the EML and the archive. This section re-runs the census against the recovered archive. It is a correction to part of F1 and a confirmation of the rest. Pipeline steps `08_zoobank_recovery.py` and `09_zoobank_recovery_graph.py`; artifacts `reports/zoobank_recovery.json`, `reports/zoobank_recovery_resolution.json`, `reports/zoobank_recovery_verification.json`, `graph/zoobank-recovery.ttl`.
+
+Archive observed 30 Aug 2026 09:12 UTC, sha256 `f1ddc73d00a8598f...`, 81,604,497 bytes, EML pubDate 2026-08-29, 527,127 rows.
+
+### What recovered
+- All three IPT endpoints return 200: the resource page, `archive.do` and `eml.do`.
+- 527,127 records against the 478,746 GBIF still serves and the 399,326 in the ChecklistBank snapshot. The recovered archive holds 48,381 more records than the freshest mirror.
+- Content is current to 23 August 2026 by the maximum `modified` timestamp.
+
+### What did not recover, and this is the finding that matters
+- **50 of 50 sampled canonical act URLs still return 404**, the same seed-42 sample form used on 28 August, at `https://zoobank.org/{uuid}`. That is the exact URL every one of the 527,127 rows publishes in its own `references` column.
+- `zoobank.org/Api`, `/About` and `/Search` still return 404.
+- GBIF has not re-crawled. Its five most recent attempts, 21 July through 23 August, all finished ABORT, and the API still serves the 2025-03-28 copy.
+- **F1 therefore stands in substance.** The publication endpoint recovered. The register's own resolution layer did not. A consumer following the identifiers the register publishes still arrives at 404.
+
+### Integrity of the recovered archive: clean on identity, defective on atomisation
+Clean, and cleaner than the 2023 mirror on one axis:
+- 527,127 rows, 527,127 distinct `taxonID`, zero duplicates, zero self-parenting, zero cycles in the parent chain, `id` equal to `taxonID` on every row.
+- Zero non-UUID identifiers. The 2023 ChecklistBank snapshot carried 50 junk ids such as `x5C` and `~4Q`; they are gone.
+- One licence value, CC0, on all 527,127 rows, machine-actionable, with no variant spellings. Compare BHL at 86.01% with no machine-actionable licence.
+- `nomenclaturalCode` is ICZN on every row. `namePublishedInYear` runs 1758 to 2026 with zero malformed, zero pre-1758 and zero future values, so the register's own start date is exactly the Code's.
+
+Defects found, all three verification paths agreeing:
+- **R1. 347 broken internal references.** 138 `parentNameUsageID` and 209 `originalNameUsageID` name a UUID that is not a row in the same archive. The prose name is present where the identifier is not, for example a child whose `parentNameUsage` reads `Scoliodon Müller & Henle` while the UUID it points at is absent. The hierarchy is resolvable by reading and not by joining.
+- **R2. 41,274 records carry authorship inside `scientificName` while the atomised fields are empty.** `Phoxichilidium Milne-Edwards, 1840` appears with `scientificNameAuthorship` and `namePublishedInYear` both blank, and `namePublishedIn` populated on only 4 of the 41,274. A consumer filtering on authorship or year silently loses records whose authorship is sitting in the name string. In fairness, the remaining 22,308 of the 63,582 blank-authorship rows are higher-taxon stubs such as `Exochus` and `Eretmophoridae` with no publication data anywhere, and those are structural rather than defective.
+- **R3. 5 records have a blank `scientificName`.** Two carry `.` and `..` in the genus or family field. One of the five is named as `scientificNameID` by a genuine 2017 act record whose `nameAccordingTo` is the Boersma, McCurry and Pyenson description of the fossil dolphin *Dilophodelphis fordycei*.
+
+### Verification
+Three paths, all agreeing, `reports/zoobank_recovery_verification.json`:
+- Set-based Python over the 527,127 rows.
+- SPARQL over `graph/zoobank-recovery.ttl` after a full rdflib parse: record count, both orphan classes, the total, the 5,000-row resolving control sample and both resolution counts each recomputed independently. Seven checks, seven agreements.
+- open-ontologies v1.2.0, our own engine, as the third path: `validate` ok on the recovery graph (48,367 triples) and on the ontology, `lint` reporting zero issues.
+
+The ontology moves to 0.2.0 with one additive class, `biodiv:InternalReferenceAssertion`, and five properties. A pointer from one record to another is a dated claim that can fail in a way an identifier assertion cannot, because the target may be absent from the very publication that asserts it. Modelling it as a claim lets a broken pointer be recorded without asserting that its target exists.

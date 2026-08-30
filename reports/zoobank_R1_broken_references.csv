@@ -1,0 +1,348 @@
+taxonID,scientificName,field,missing_target_uuid,target_prose_name
+e25cc653-99c0-462c-91a7-ae6e873bb93a,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+72525655-17d1-4f4a-b949-f30597338936,"Scoliodon russellii Gray in Richardson, 1846",parentNameUsageID,315afa73-6ee3-42bc-8113-e25a15b8f25b,Scoliodon Müller & Henle
+e1b967b6-934e-4130-b765-70a03710d528,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+ba7426ba-bbf9-4078-afd9-64b489e57a4e,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+24bbc32e-ef21-47f8-ae8e-8e7dfb569424,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+bda89bf9-c6f3-4d36-913e-ecefb5f0b1c2,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+110bd758-5fae-4492-b030-495e3db6beb6,Achatinella (Leptachatina) coruscans Hartman 1888,parentNameUsageID,b2121888-829a-4fbb-9bc8-f25ca5c7bcc9,Achatinella (Leptachatina) Gould 1847
+07d29620-0b32-4a4a-a5f4-5224fcde957d,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+21dfaede-a33f-4c22-bc52-79f468853b72,"Anodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,da1c8932-6fa5-4c82-99b0-133936a4403b,"Anodus Agassiz in Spix & Agassiz, 1829"
+b35049c6-fcdc-41a3-b8c9-85880dd26c4b,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+bdb53e00-cc1c-40d4-8435-5c5d11eed0d9,"Epicyrtus macrolepis Kner, 1858",parentNameUsageID,f95e5366-9d6e-447d-811d-19a3c20f80be,Epicyrtus Müller & Troschel
+16bc09b5-6831-4cc9-b3e8-1076917bbacd,"Hypophthalmus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ca4c98be-0f97-4adf-acfc-ac46112de64a,"Hypophthalmus Agassiz in Spix & Agassiz, 1829"
+dd793f24-6869-4999-9a5a-184b788b9c92,"Rhinelepis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,3d34ec2a-9664-4a12-b77d-7247f9650cca,"Rhinelepis Agassiz in Spix & Agassiz, 1829"
+9487ba76-36c5-4c43-abf9-a28c87ee4c8e,Achatinella (Amastra) uniplicata Hartman 1888,parentNameUsageID,649ed01e-c4a2-4db1-90ed-08d04e09b446,Achatinella (Amastra) Adams & Adams 1854
+447ccac9-4247-4fe7-a5c6-be2329d9fbce,Carcharias (Scoliodon) lalandii Valenciennes in Müller & Henle 1839,parentNameUsageID,f01a0fad-63a4-444e-9fa6-5ebabb0a40d4,Carcharias (Scoliodon) Müller & Henle
+1ced7c3c-b23c-4e60-bcad-d9d936e51527,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+02421907-8595-4c2a-8d49-170e0f3744e8,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+70f61bbd-87ea-45b1-a44f-1609f20a5a37,"Micropteryx Agassiz in Spix & Agassiz, 1831",originalNameUsageID,06bf5a8d-b82b-4cef-b386-3d0335440419,"Micropteryx Agassiz in Spix & Agassiz, 1831"
+fa9c4b42-d26f-4f76-88c5-1d780049ffc6,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+58537834-dd39-4fb5-aed1-457c924ca3d2,"Ferdauia claeszooni Whitley, 1947",parentNameUsageID,6783ff60-6f76-496c-acb0-e436b81e5ae6,"Ferdauia Jordan, Evermann & Wakiya in Jordan, Evermann & Tanaka"
+7337abf9-a95e-4218-b41b-2d40b88e5248,"Schizodon Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ea598296-091f-4e70-b7a0-d0d4244d9220,"Schizodon Agassiz in Spix & Agassiz, 1829"
+f55b975b-a276-4597-86db-a038a9508674,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+bdd4b03a-8a0d-4688-a8af-e429e955fc2f,"Bulimus newcombianus Pfeiffer, 1851",parentNameUsageID,b5ace767-52ef-44de-97f6-9f3b76075f58,"Bulimus Scopoli, 1777"
+c9026fee-3dd9-4d7b-a63b-272745500856,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+40b8aa94-8361-4b35-a962-842f2d4e4528,"Pterodiscus Pilsbry, 1893",originalNameUsageID,3bc1ce9c-63eb-46e1-8b0a-19ee862e8b92,"Endodonta (sect. Pterodiscus) Pilsbry, 1893"
+474ecad5-65dd-4551-a23d-a0185e0509fb,"Schizodon Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ea598296-091f-4e70-b7a0-d0d4244d9220,"Schizodon Agassiz in Spix & Agassiz, 1829"
+e7b635f5-86b0-401e-aa12-5fb4a5e329a3,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+feb04fd1-db57-4177-93a4-6dafdfceb7be,"Pachyurus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,f85fe3b0-deb1-4a78-b6eb-e88e243f54a6,"Pachyurus Agassiz in Spix & Agassiz, 1831"
+c25bd967-66da-4527-bf37-3c4b22db1a19,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+edf52569-8fd5-40e1-a3ea-c440280bcbe8,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+3b575fba-6a38-4876-aee4-8f58c73b659a,"Xiphostoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,088b8b06-aaa6-4795-b209-11f03838f9c1,"Xiphostoma Agassiz in Spix & Agassiz, 1829"
+864d0551-83fd-4e78-90e1-8194ae691b42,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+ba2ed1c6-0ade-4bbe-8510-42facd476e65,"Sorubim Agassiz in Spix & Agassiz, 1829",originalNameUsageID,e3825e26-1a2a-48b2-9e67-01264df451ad,"Sorubim Agassiz in Spix & Agassiz, 1829"
+ff94bc08-bfc0-48a7-bca0-4ff32cfd44c5,"Scoliodon russellii Gray in Bleeker, 1852",parentNameUsageID,eb23b733-b013-4707-8880-5a6cbf060b3f,Scoliodon Müller & Henle
+194ee5de-bfa9-410f-890c-570dca0d1754,"Aptinothrips rufa (Goeze, 1778)",originalNameUsageID,0d92891f-3847-42d8-9aa6-0d26e7fb0733,"Thrips rufus Goeze, 1778"
+df13ebb1-8604-43f0-9e7e-65abccac8b94,"Siphonophora Koch, 1855",originalNameUsageID,f07d502d-f839-42c0-9a0a-4ca218a1c2a5,"Siphonophora Koch, 1855"
+05718656-34e7-49a0-98d9-581f11b17874,Achatinella (Amastra) Adams & Adams 1854,parentNameUsageID,bba191c6-f1ab-4b83-af24-b49738347c6d,Achatinella Swainson 1828
+81ed4f16-07e1-4a59-b2a6-bc712b771560,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+463e9a59-b152-4958-bb37-14b50178293d,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+27d3cc00-6538-4913-b6d4-955cce6ca1fd,Achatinella vittata Reeve 1850,originalNameUsageID,8b96c6d9-ac47-4de7-b0e1-ff194f0e9a34,Achatinella vittata Reeve 1850
+ca5fa117-8928-4cda-a33b-d1c0120657ff,"Rhinelepis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,3d34ec2a-9664-4a12-b77d-7247f9650cca,"Rhinelepis Agassiz in Spix & Agassiz, 1829"
+97a0cd07-fe29-4cf0-bb9b-a915d485438d,"Molva vulgaris Fleming, 1828",parentNameUsageID,c91e3ca2-f887-4e4e-a199-1c1229ddc2f4,Molva Lesueur
+bf03f765-a737-46e6-94fe-cd2fa4b550a6,"Ferdauia lindemanensis Whitley, 1951",parentNameUsageID,e989fa0e-5810-4e80-8f0d-327ac0b20a06,"Ferdauia Jordan, Evermann & Wakiya in Jordan, Evermann & Tanaka"
+7ce9a0d9-1480-4b18-9451-77ecf370936b,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+aa36bc8a-b27e-41a7-aa05-5cf0b6f32253,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+4b23cc17-7160-44d4-9269-a71695a92ed9,"Schizodon Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ea598296-091f-4e70-b7a0-d0d4244d9220,"Schizodon Agassiz in Spix & Agassiz, 1829"
+13d5efdd-c52c-4c10-a8db-f886a3c18bef,"Chionaspis eugeniae Maskell, 1892",parentNameUsageID,349fc829-dde2-41b6-b0df-e0c9fb17596c,"Chionaspis Signoret, 1869"
+080f1d9a-0b31-4e71-9360-1055e1531e42,Aramigus fulleri Horn in LeConte 1876,parentNameUsageID,07b237c3-a85e-483c-bfe5-fcab34b6e56f,Aramigus Horn in LeConte 1876
+00527772-310f-40ed-912d-6d4916617388,"Scoliodon longmani Ogilby, 1912",parentNameUsageID,cbcf4d27-d682-462d-9847-228a9e634f8b,Scoliodon Müller & Henle
+a12fcfb3-7393-471b-ab0b-726a1ad6c842,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+ac4943d6-2cef-4925-ad8b-966b6f9d2c17,"Schizodon Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ea598296-091f-4e70-b7a0-d0d4244d9220,"Schizodon Agassiz in Spix & Agassiz, 1829"
+6ba72782-4dc9-4d1a-a862-a63403b07617,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+62788f85-3e79-4f39-8ecd-621892e34357,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+be05a319-9155-422c-b564-1740fb567333,"Pachyurus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,f85fe3b0-deb1-4a78-b6eb-e88e243f54a6,"Pachyurus Agassiz in Spix & Agassiz, 1831"
+8f157334-d858-4a1c-a526-58ab1a67dfa4,"Rhinelepis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,3d34ec2a-9664-4a12-b77d-7247f9650cca,"Rhinelepis Agassiz in Spix & Agassiz, 1829"
+82bbb6b7-7cfe-45c5-b151-5da6c1f52734,"Chthonius tetrachelatus Preyssler, 1790",parentNameUsageID,b11b0419-a0d2-451c-bb0c-975b29e7d6c7,"Chthonius Koch, 1843"
+d813eca1-b220-46bb-9eb5-e5a96e48d598,"Xiphostoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,088b8b06-aaa6-4795-b209-11f03838f9c1,"Xiphostoma Agassiz in Spix & Agassiz, 1829"
+36b734be-d5db-460e-9d5c-4cafbf8e31c9,Tralia (Pira) Adams & Adams 1854,parentNameUsageID,d269df88-b1c6-44be-91c3-08cba8a25bc1,"Tralia Gray, 1840"
+13860334-facf-4bb2-9201-a5f85f502dc4,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+d14f8ffe-6374-4f09-8edb-170851a49e86,"Rinelepis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,3d34ec2a-9664-4a12-b77d-7247f9650cca,"Rhinelepis Agassiz in Spix & Agassiz, 1829"
+f0307291-93df-426c-8cd1-d2c464e8af82,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+2e723eb6-2dbf-4ffa-af88-b01d4934da71,"Acanthicus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,5024e1cc-b831-482d-9e52-ad5a97e87ee7,"Acanthicus Agassiz in Spix & Agassiz, 1829"
+baa0a514-cf11-4a11-a1ed-aaa756062b41,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+2903ba95-66d3-4df5-827c-57714b7cfab7,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+f5e97be5-a002-40a8-8611-227486dd7d04,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+0e63b92a-c13d-4377-8f6b-a37964543107,"Molva huntia Lesueur, 1819",parentNameUsageID,508eb03f-69de-44f9-9d6d-b861e8ea8c78,Molva Lesueur
+ea3b0654-4487-4c4d-8f30-406fcb7f821c,"Salminus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,be97bfa7-e889-4133-b85a-fb3c0953f7f5,"Hydrocyon (Salminus) Agassiz in Spix & Agassiz, 1829"
+99b48470-a601-4c79-81cf-dbb936e934b9,Vibex (Tarebia) Adams & Adams 1853,parentNameUsageID,5b9235a1-5469-4cd1-9dc2-bd4c08c77ebb,Vibex
+96f4d75d-b0b5-48c3-9ec7-6b0b535e6e27,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+ea8d1696-722a-4baf-bca9-7917c2406fa4,"Siphonophora Koch, 1855",originalNameUsageID,f07d502d-f839-42c0-9a0a-4ca218a1c2a5,"Siphonophora Koch, 1855"
+82952c67-06fb-4d58-a537-e1bc1fb6a74e,"Glanis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,64bfc798-9361-4144-9ece-899a53ac65b4,"Glanis Agassiz in Spix & Agassiz, 1829"
+6f9a3bc9-10bd-419c-818f-87e1e724a95c,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+05397cc1-8389-42b5-9c4a-ab0262583153,"Scoliodon vagatus Garman, 1913",parentNameUsageID,80b4ed42-71a5-4a2b-a2cf-83ca23fb875c,Scoliodon Müller & Henle
+ada5274f-2e85-419c-9d61-5816ab77af96,"Bulimus liratus Pfeiffer, 1851",parentNameUsageID,b5ace767-52ef-44de-97f6-9f3b76075f58,"Bulimus Scopoli, 1777"
+f7c68f2f-5972-4379-94d2-d7bc288197ec,"Pterodiscus Pilsbry, 1893",originalNameUsageID,3bc1ce9c-63eb-46e1-8b0a-19ee862e8b92,"Endodonta (sect. Pterodiscus) Pilsbry, 1893"
+b22acecd-d54e-42e1-8453-3fd634784baa,Amastra (Metamastra) Hyatt & Pilsbry 1911,originalNameUsageID,a2b5c6bf-e7ae-497c-abb8-20af0e8a3d5c,Achatinella (Metamastra) Hyatt & Pilsbry 1911
+a275c007-960a-4db3-b5eb-302a0f41e42a,"Xiphostoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,088b8b06-aaa6-4795-b209-11f03838f9c1,"Xiphostoma Agassiz in Spix & Agassiz, 1829"
+7fbef8d2-a3f6-4797-9ce4-01f58e4898a0,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+96ea20e3-c784-4e37-bcfe-ee903ea8ef77,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+6be5adcc-6b9e-47a0-8aaf-ef1ac07c0fec,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+a3a05ca8-cefb-4d19-b6c7-d8ae058c121e,"Boopsetta umbrarum Alcock, 1896",parentNameUsageID,9096ce33-90eb-4a58-8d7f-99a302da24e5,Boopsetta Alcock
+d72fa897-97e1-4051-a635-1c348c5b8b8a,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+b49d7357-7a8c-4ff5-8e38-dcc932425ad8,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+10b562c4-1654-49ea-9cae-3987a905ac64,"Acanthicus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,5024e1cc-b831-482d-9e52-ad5a97e87ee7,"Acanthicus Agassiz in Spix & Agassiz, 1829"
+6f74d9d3-8a39-4163-ac52-a50dd22733c9,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+b6ef18c0-6052-4694-832d-2912d69d5644,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+289071e3-32db-44ab-b93a-67793778b9c6,"Achirus maculipinnis (Agassiz in Spix & Agassiz, 1831)",originalNameUsageID,299c9155-941b-4256-be8e-a259d5fc1365,"Monochir maculipennis Agassiz in Spix & Agassiz, 1831"
+b65d9b16-32f2-45bf-bdab-a67db5756c6b,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+69208e7d-d305-4a02-a590-31aa6dda7f57,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+b5063820-ee4a-46b0-80a8-fe20d53e5003,"Gymnothorax ocellatus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,0d71ce6f-fd0f-44fe-bef2-ec9b6b3e66fa,"Gymnothorax ocellatus Agassiz in Spix & Agassiz, 1831"
+6d965c31-b5c4-4e02-af25-0a457da1f323,"Pachyurus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,f85fe3b0-deb1-4a78-b6eb-e88e243f54a6,"Pachyurus Agassiz in Spix & Agassiz, 1831"
+4aa54157-08e1-4ff8-ab49-55ad4cc6b8b4,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+f3a93773-d609-489d-86d3-f5bfafd8d323,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+1cfaf62d-5a04-4c4f-b494-102b9a764403,"Margarodes glauculalis Guenée, 1854",parentNameUsageID,76888118-a309-4394-9e28-66b29a2de95f,"Margarodes Guilding, 1829"
+bcf5b434-410c-42e9-852c-764fbcd06e11,"Amalia Moquin-Tandon in Moquin-Tandon, 1855",originalNameUsageID,dee16471-cf21-4084-b336-9813bc68f624,"Limax (div. Amalia) Moquin-Tandon in Moquin-Tandon, 1855"
+cafc8429-dcb5-48c0-8809-91a80ea02af7,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+a2e76e22-1687-4e40-ae9c-13968b35c33a,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+1d60f2b4-eda6-4cd3-b8a4-de2e0815796e,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+a2303a2b-01a9-4eab-b063-9760f4d7617a,"Endodonta (Thaumatodon) Pilsbry, 1893",originalNameUsageID,e95e7e3b-0186-4a42-ac01-9f4e3624da70,"Thaumatodon Pilsbry, 1893"
+33068b80-4e5c-4e19-ad23-f60bd94c955b,"Scoliodon jordani Ogilby, 1908",parentNameUsageID,b23eb273-77c7-405a-a78c-33846c058fad,Scoliodon Müller & Henle
+2ec89e58-a637-49b8-96cd-1e51ab49e9f4,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+26f31a2d-3b08-4635-8d86-b79deb65da91,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+2fd61171-4177-4399-b9ee-a481021d764f,"Phractocephalus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,041c0730-0b67-4e32-b474-e0934d127d85,"Phractocephalus Agassiz in Spix & Agassiz, 1829"
+b90a9309-c7d5-45d6-9082-21bd2e99ee40,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+4658b88c-75de-4d5b-8fcf-50289ebe7122,"Epicyrtus exodon Valenciennes in Cuvier & Valenciennes, 1850",parentNameUsageID,59670b1d-e405-4786-9267-ff9942de5c16,Epicyrtus Müller & Troschel
+e1668203-b7e1-4219-ba5b-9a10040b3a09,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+5d263023-a0b9-4706-baca-27eaf0f2b4c1,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+c16ac4d1-a569-412b-b251-cbe733010e2e,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+a4e8cdf5-5429-4561-ad9e-2ac8cc419a77,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+15c59487-2eb9-47ac-8a76-8bc58f745d57,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+be7cdaba-49a7-476f-aa7a-8708c0b1d751,"Epicyrtus microlepis Kner, 1858",parentNameUsageID,f95e5366-9d6e-447d-811d-19a3c20f80be,Epicyrtus Müller & Troschel
+d99d6489-8698-47c7-99bc-5a8972921357,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+d0041b57-3b2c-4d3d-a486-b3049f805b90,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+9dfd61af-eb1b-4fb9-b9f5-09bf31a75662,"Xiphostoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,088b8b06-aaa6-4795-b209-11f03838f9c1,"Xiphostoma Agassiz in Spix & Agassiz, 1829"
+3ee4a62d-8a8c-4f79-bf07-0e6231c49bb8,"Salmo silus Ascanius, 1767-1805",parentNameUsageID,8a73d8a5-19b2-450a-863a-d50e73a06e78,"Salmo Linnaeus, 1758"
+1c4db4e2-c7a4-46f4-916f-66bedf2de29f,Amastra (Metamastra) gulickiana (Hyatt & Pilsbry 1911),originalNameUsageID,46684dd9-c2c2-443d-83f3-689105bd4f89,Achatinella (Metamastra) gulickiana Hyatt & Pilsbry 1911
+129e4fa4-7b5c-487b-9d5f-9dd783f90968,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+04750b7e-d0c6-4f9e-b774-8fae7ea3b784,"Plecostomus (Rhinelepis) Agassiz in Spix & Agassiz, 1829",originalNameUsageID,3d34ec2a-9664-4a12-b77d-7247f9650cca,"Rhinelepis Agassiz in Spix & Agassiz, 1829"
+fc0b9262-1404-4fb0-86ad-4ae85a7a72e7,"Schizodon Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ea598296-091f-4e70-b7a0-d0d4244d9220,"Schizodon Agassiz in Spix & Agassiz, 1829"
+8787e19b-a0b4-468d-b7bf-d58ac354c8cd,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+87251400-0381-4896-a417-9d60b457c190,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+bf336bf4-3856-45b1-b602-e6a9f9a4f584,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+06281450-25d2-49a9-abbc-3772126933f7,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+36fa026c-aece-47fc-856b-77390b2a98ec,"Rhinelepis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,3d34ec2a-9664-4a12-b77d-7247f9650cca,"Rhinelepis Agassiz in Spix & Agassiz, 1829"
+4ac393aa-37c7-4dea-b9e9-5d67cae73f6f,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+c3c53765-b30e-4747-93b2-9dd591fcec4a,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+8248ceb1-4d52-41ad-8ad8-85cada5b0cd7,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+4740b262-185c-465b-8b22-1a661ce02f64,"Molva linnei Malm, 1877",parentNameUsageID,9182bbe4-a9d1-45ce-8399-6ceeb1e5ce3f,Molva Lesueur
+d77a2181-3c22-4152-a732-cfe354e0672b,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+a31d3a14-f7a8-49ec-9875-59ffc763620a,"Epicyrtus microlepis Reinhardt, 1851",parentNameUsageID,8244edec-9e5e-4c3c-b4a3-ebfbfdc15495,Epicyrtus Müller & Troschel
+c0179341-f0ca-49eb-aab5-6a54deeb6f20,"Pachyurus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,f85fe3b0-deb1-4a78-b6eb-e88e243f54a6,"Pachyurus Agassiz in Spix & Agassiz, 1831"
+9c8a9ef1-5425-4b1e-b44e-8d30c6882747,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+9209a5e9-f32e-48b6-b043-cc4fa44b8b4e,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+ed3101c5-0225-461f-a848-75be99cff567,"Ornithomyia fusciventris Wiedemann, 1830",parentNameUsageID,3e04d8f2-7a9c-4451-a946-f00e75b1c3bc,Ornithomyia
+699c594c-8ec1-4f56-9d40-3b97739653a2,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+373e3858-73ab-4ece-91ab-bae3b091eb11,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+a405e092-4ab6-4c2f-b42c-6869204fce62,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+014a06ea-d69f-44a9-81e9-e1daacfe3a64,"Discus aureus Campbell, 1879",parentNameUsageID,450365ba-6753-4f18-9d21-f25fd616457d,Discus Campbell
+95addd93-e27e-4897-be43-4a148d6d49e5,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+9d97d64e-00e4-45e3-9d49-7d20ad7f37dd,"Leucostoma atra Townsend, 1891",parentNameUsageID,a7b58d13-781f-48b3-a0e2-d8124cf51b5a,Leucostoma
+d5fa4ec4-9d72-49e6-806b-122d95aea019,"Endodonta (Nesophila) Pilsbry, 1893",originalNameUsageID,5592cc9a-ea79-418b-a216-50386366e738,"Endodonta (sect. Nesophila) Pilsbry, 1893"
+391e15e8-f553-4ca3-b99e-0ab9e29b34f2,"Carcharias (Scoliodon) macrorhynchos Bleeker, 1852",parentNameUsageID,547e2e86-4ed7-4c52-bb94-5703c9749a26,Carcharias (Scoliodon) Müller & Henle
+d1832c8d-28cb-41f5-ad28-ab2ce7d8d63a,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+2941f236-71b5-4d0b-815f-52e32ff430c5,"Chrysomelanus piscis Plumier in Lacépède, 1802",parentNameUsageID,b7b5df36-289c-4738-95a9-3ba15bdc7682,Chrysomelanus Plumier in Lacépède
+5442402c-79d6-4674-a016-eb5f1248d23d,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+0a33cf2d-7cc0-4aeb-8245-48ff58db1f0f,"Pachyurus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,f85fe3b0-deb1-4a78-b6eb-e88e243f54a6,"Pachyurus Agassiz in Spix & Agassiz, 1831"
+3b2f50d6-ebdf-4f42-8511-54346fcdb4d0,"Endodonta (Thaumatodon) Pilsbry, 1893",originalNameUsageID,e95e7e3b-0186-4a42-ac01-9f4e3624da70,"Thaumatodon Pilsbry, 1893"
+2e5bb5d9-7f04-4cc8-9d31-f91e74dc83ea,"Melolontha ephilida Say, 1825",parentNameUsageID,88e0b43d-91fa-46cb-bda0-d712c569dfc8,Melolontha
+384e59d4-e594-4a2e-8e43-175d85a1e612,"Gonatocerus pygmaeus Girault, 1911",parentNameUsageID,820ce67e-c20b-4046-8260-4891a09e6a10,"Gonatocerus Nees von Esenbeck, 1834"
+11ae3034-2f22-4189-95f5-93b7d31ffe49,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+bbacd0c3-94d9-4b1d-b33e-d777f0a069d6,"Paraponyx linealis Guenée, 1854",parentNameUsageID,1150da31-5a2d-4a3f-8aab-2c973eb1c392,Paraponyx
+372bad49-b0dd-4b19-9f58-cb44abf5b4a1,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+bebce4a3-ea0e-4fc7-a5c3-1e48d0d934e6,"Glossodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,97bd5738-8026-4902-bcff-e106c157b55e,"Glossodus Agassiz in Spix & Agassiz, 1829"
+6bca1c6e-1da7-449a-bcb6-83f7e4ab95d8,Auriculella auricula (de Férussac 1821),originalNameUsageID,ceb167f4-9bc9-4fe9-af0d-26424a7db651,"Partula auricula de Férussac, 1821"
+60acc76a-8b4b-433e-87ad-c2bd9ccdeb20,"Schizodon Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ea598296-091f-4e70-b7a0-d0d4244d9220,"Schizodon Agassiz in Spix & Agassiz, 1829"
+fef0e9a3-d142-47fa-b267-38a7b99f5acd,"Schizodon Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ea598296-091f-4e70-b7a0-d0d4244d9220,"Schizodon Agassiz in Spix & Agassiz, 1829"
+966028a3-db35-4779-82d7-347f7e712f08,"Nesopupa (Nesopupilla) Pilsbry & Cooke, 1920",originalNameUsageID,b7fc4d0c-81c7-47cb-9a94-219d76431700,"Nesopupa (sect. Nesopupilla) Pilsbry & Cooke, 1920"
+37fbe0bf-09f5-489d-8125-b6706cc94dd7,"Carcharias (Scoliodon) dumerilii Bleeker, 1856",parentNameUsageID,acccabd9-9283-4b57-9f58-83c2b84f5880,Carcharias (Scoliodon) Müller & Henle
+d467f47e-2f22-463b-9ede-36fdfb4ee3c0,"Pachyurus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,f85fe3b0-deb1-4a78-b6eb-e88e243f54a6,"Pachyurus Agassiz in Spix & Agassiz, 1831"
+c99393ed-8da1-4d40-b2fa-6d54494d3c63,"Balea newcombi Pfeiffer, 1852",parentNameUsageID,3487a91e-9d62-4a20-98b8-78daf52a026e,"Balea Gray, 1824"
+caa206ee-c33f-4acf-9ae5-67e74c1121f8,"Pachyurus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,f85fe3b0-deb1-4a78-b6eb-e88e243f54a6,"Pachyurus Agassiz in Spix & Agassiz, 1831"
+7a0f2361-df7a-46e7-b968-0cb5c6603d17,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+f9e2eb7f-66f1-4e48-ae64-922fc2fedbd7,Carelia fuliginea (Pfeiffer 1852),originalNameUsageID,a374d321-f679-447a-a135-3b83a25a7eb2,"Achatina fuliginea Pfeiffer, 1852"
+53e25542-a545-4621-ad13-cd433ed76697,"Heteropneustes Müller, 1840",originalNameUsageID,8da2e9d6-09eb-4eca-b864-94c00d275c4c,"Heteropneustes Müller, 1840"
+a98c8817-0eef-4888-aeb8-c1b311ca1cfb,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+46bccf35-7384-49ea-8326-896e48dccfd8,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+55650ee4-25e4-4f5d-a377-bed91cfc64ef,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+0d8fe4fc-06e1-4110-9527-5e089dd8ab78,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+c8d10853-b319-4170-832a-209cb691a5f1,Achatinella melampoides Pfeiffer 1851,parentNameUsageID,8624a5d9-6b60-4818-a99a-782f52f22019,Achatinella Swainson 1828
+9add18d4-e117-4503-900d-e54cc67ee85d,"Endodonta (Thaumatodon) Pilsbry, 1893",originalNameUsageID,e95e7e3b-0186-4a42-ac01-9f4e3624da70,"Thaumatodon Pilsbry, 1893"
+65c63f0f-77ae-4c0a-9e12-de36314b4321,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+80aa289a-86c3-4790-b5a4-51dab662b2d5,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+790e8b67-1173-494d-83da-1de303f70e5f,Astronotus ocellatus (Agassiz in Spix & Agassiz 1831),originalNameUsageID,52bffcce-1c45-474a-a0d0-247b48b50fba,"Lobotes ocellatus Agassiz in Spix & Agassiz, 1831"
+b8ef7f52-e4b2-44c8-ac8f-abe73478c0eb,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+f7f50811-9086-4376-a52c-05ff01255106,"Endodonta (Nesophila) Pilsbry, 1893",originalNameUsageID,5592cc9a-ea79-418b-a216-50386366e738,"Endodonta (sect. Nesophila) Pilsbry, 1893"
+44dabc8b-10dd-4a14-b097-4f630f57976c,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+b62d25fc-5d6d-4ba1-9be8-18ec8d471c51,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+1b6bdc8f-178b-4688-a570-2a4379fb05d3,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+8b04f064-5d84-4ec3-9a67-c23638e3df4b,"Rhinolepis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,3d34ec2a-9664-4a12-b77d-7247f9650cca,"Rhinelepis Agassiz in Spix & Agassiz, 1829"
+b4efcbf7-3a87-4839-854f-57da8f7948f9,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+67261cce-ce42-4134-8174-e9f5c8971bc7,"Ischnosoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,8452c1b8-3cd2-4a03-8789-e9e097f0c581,"Ischnosoma Agassiz in Spix & Agassiz, 1829"
+38b4a135-9694-4150-a84e-5e8fe7cee942,"Xiphostoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,088b8b06-aaa6-4795-b209-11f03838f9c1,"Xiphostoma Agassiz in Spix & Agassiz, 1829"
+36f8e283-91ff-4c04-af99-4dd1c74ef2c3,"Endodonta (Thaumatodon) Pilsbry, 1893",originalNameUsageID,e95e7e3b-0186-4a42-ac01-9f4e3624da70,"Thaumatodon Pilsbry, 1893"
+ce1134d1-3fa0-46ec-a9ac-31815fe2805c,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+37497d8d-852d-41a2-9237-764ca93e3c1d,Achatinella (Leptachatina) saccula Hartman 1888,parentNameUsageID,b2121888-829a-4fbb-9bc8-f25ca5c7bcc9,Achatinella (Leptachatina) Gould 1847
+0ab6fb7e-a2b2-42b5-8eed-70273603ebbf,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+7ac648c3-e37b-41a0-b54e-7434e0b4323d,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+bad7f73a-da78-412e-8c22-0428c4f7c782,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+881ca8f9-8ed7-41f8-bf36-925eeef15942,"Micropteryx Agassiz in Spix & Agassiz, 1831",originalNameUsageID,06bf5a8d-b82b-4cef-b386-3d0335440419,"Micropteryx Agassiz in Spix & Agassiz, 1831"
+61c9bbe8-bbdc-4140-b0e5-0a0c564f13ee,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+3e6fe4ef-7c0d-40d4-9f4d-88b17ffffa0b,"Pachyurus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,f85fe3b0-deb1-4a78-b6eb-e88e243f54a6,"Pachyurus Agassiz in Spix & Agassiz, 1831"
+6262947a-1631-43ba-835b-6952e671171e,"Phractocephalus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,041c0730-0b67-4e32-b474-e0934d127d85,"Phractocephalus Agassiz in Spix & Agassiz, 1829"
+de643a76-4bf4-4af9-add2-a5ce57bd9497,"Scoliodon ceylonensis Setna & Sarangdhar, 1946",parentNameUsageID,ca2e024b-de8d-4c30-a446-25928849ada0,Scoliodon Müller & Henle
+29f6c1f4-e290-43e7-9f3d-e8bd2c1fd0f8,"Tenthecoris distinguendus Hsiao & Sailer, 1947",parentNameUsageID,44cb5268-9906-4298-bd62-60abc081a2e3,"Tenthecoris Scott, 1886"
+d0ccbd8d-8df5-42fc-b026-9ffd424612ae,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+3b8c13bc-b661-4c3f-a15e-c953e18da8c1,Sarcoptes laevis (Latreille),originalNameUsageID,0d5b8814-a42c-4362-8d2e-25baa075794a,Cnemidocoptes laevis Latreille
+29373692-1330-45a7-a2b2-647bb9b6af48,"Neritina (Neripteron) Lesson, 1831",originalNameUsageID,62a60042-d349-460c-841a-4799e0d58415,"Neripteron Lesson, 1831"
+b9b16d41-a138-445f-952a-cdba30c5b6d9,"Rhinelepis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,3d34ec2a-9664-4a12-b77d-7247f9650cca,"Rhinelepis Agassiz in Spix & Agassiz, 1829"
+742c76c7-d322-4e77-accc-0678d6d66512,"Carcharias (Scoliodon) longurio Jordan & Gilbert, 1882",parentNameUsageID,81ccf67e-6f18-4fb5-be91-1d3581ef078d,Carcharias (Scoliodon) Müller & Henle
+76acbfa2-7f6d-44cf-b6ba-5e3964648c02,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+9b1b2e41-1530-4c62-bfb9-987626aa3103,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+54b2e15b-cc00-49f6-b58d-e0d392d66fcf,"Endodonta (Pterodiscus) Pilsbry, 1893",originalNameUsageID,3bc1ce9c-63eb-46e1-8b0a-19ee862e8b92,"Endodonta (sect. Pterodiscus) Pilsbry, 1893"
+e713f332-5f08-47d6-93f3-ea95046a2135,"Martianus castaneus Fairmaire, 1893",parentNameUsageID,f9966c98-4808-49df-8cbf-983556a46b7a,"Martianus Fairmaire, 1893"
+6b471f27-10bb-4072-bc44-1cc92b0529b3,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+ea2d6074-5905-46a4-8ebf-621f8eb9929a,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+be7eedf0-da2b-4099-9827-bc8e1b78e95b,Amastra (sect. Armiella) Hyatt & Pilsbry 1911,originalNameUsageID,69cb49a4-f2db-48bd-8b39-26f867d7b226,Amastra (Kauaia) (sect. Armiella) Hyatt & Pilsbry 1911
+a2a95e59-ea7b-477b-98d6-f426d5748b06,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+ad8dd057-4d8b-4b56-8cbd-17b10dc04d2b,Ellobium brownii Adams & Adams 1854,parentNameUsageID,57238bf1-dc90-4dcb-aab2-234d98940de7,"Ellobium Röding, 1798"
+b31049e7-7a51-437a-b6ca-d485c524cd6f,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+df069c8c-af22-43d5-9c48-551633bad879,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+0061ee2e-f95d-45b8-bf2d-d7aed43078cf,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+5c000ed9-629e-4ee4-905b-c6de910f6424,"Haptoncus tetragonus Murray, 1864",parentNameUsageID,08106074-9278-4033-a3b8-8855e79cdcd1,"Haptoncus Murray, 1864"
+d4cf8be7-3594-44ae-ba04-81f40d4d1de9,"Osteoglossum Agassiz in Spix & Agassiz, 1829",originalNameUsageID,302dde01-716d-42ab-b475-e5713cc6e3db,"Osteoglossum Agassiz in Spix & Agassiz, 1829"
+39c0e183-1946-4c1b-a896-c4ec589680a3,"Xiphostoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,088b8b06-aaa6-4795-b209-11f03838f9c1,"Xiphostoma Agassiz in Spix & Agassiz, 1829"
+42df9e81-2631-4471-8e2a-c2c998812249,"Achatina newcombi Pfeiffer, 1851",parentNameUsageID,ac8a5506-4b5f-40d2-853f-8a8a058b3c61,"Achatina Lamarck, 1799"
+29342b59-bddc-48fa-819d-4b6d71f6d719,Scoliodon laticaudus Müller & Henle 1838,parentNameUsageID,2cb2c2cf-1bcb-4c51-9806-a0393df39241,Scoliodon Müller & Henle
+b427dd44-f4c6-4248-a047-e555508ae8ff,"Scoliodon affinis Ogilby, 1912",parentNameUsageID,cbcf4d27-d682-462d-9847-228a9e634f8b,Scoliodon Müller & Henle
+11213492-14f5-4cdd-b58b-4c8c1a7eb6e0,"Xiphostoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,088b8b06-aaa6-4795-b209-11f03838f9c1,"Xiphostoma Agassiz in Spix & Agassiz, 1829"
+a6a5b0ab-dd43-4551-a492-ee172b8cfb87,"Listroderes apicalis Waterhouse, 1841",parentNameUsageID,467afab2-c85b-4d4c-b51e-5188e13eb298,"Listroderes Schönherr, 1826"
+8f142970-9900-436a-9b0e-43d2de5ad489,"Scoparia coarctata Zeller, 1846",originalNameUsageID,6238647e-7212-482b-9a2c-4ece703b832d,"Scoparia coarctata Zeller, 1846"
+082d2218-c4c1-429b-b285-82d93b41788a,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+cce74ab2-1f6b-4136-914a-a197164ad422,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+6bb81c0c-b719-4de1-9729-09c6ef7252ab,Amastra (Metamastra) Hyatt & Pilsbry 1911,originalNameUsageID,a2b5c6bf-e7ae-497c-abb8-20af0e8a3d5c,Achatinella (Metamastra) Hyatt & Pilsbry 1911
+e2233cc5-a3a6-4d53-9021-94c8b857d763,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+373af51b-61f6-40a5-a2bc-7127f6c7ca64,Achatinella (Achatinellastrum) nattii Hartman 1888,parentNameUsageID,64e07233-bd6e-47f7-8b8d-d9805674028b,Achatinella (Achatinellastrum) Pfeiffer 1854
+188ddd28-b497-444b-9987-e71b1e09d534,Achatina (Carelia) Adams & Adams 1854,parentNameUsageID,f0be0e74-87b7-4318-ba96-e2af485ff0e5,"Achatina Lamarck, 1799"
+68c5c3cc-12ad-47e2-9ed6-cfac0b59eaac,"Pachyurus Agassiz in Spix & Agassiz, 1831",originalNameUsageID,f85fe3b0-deb1-4a78-b6eb-e88e243f54a6,"Pachyurus Agassiz in Spix & Agassiz, 1831"
+dcf3ce88-71fa-4e5f-8ce6-054955d8df82,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+e7d20312-c087-4cbe-a859-c678097cce3f,"Xiphostoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,088b8b06-aaa6-4795-b209-11f03838f9c1,"Xiphostoma Agassiz in Spix & Agassiz, 1829"
+ce9f2c3f-a673-4536-9a0e-7a8aa8266cf5,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+cbee1fd1-98c2-4891-a937-ce3b92a0010b,"Salminus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,be97bfa7-e889-4133-b85a-fb3c0953f7f5,"Hydrocyon (Salminus) Agassiz in Spix & Agassiz, 1829"
+3268da2d-69dd-4ca9-9baa-ac05cda4a894,"Bulimus (Helicteres) Beck, 1837",parentNameUsageID,7b38f8eb-1d1c-4f76-9044-c66dab64db69,"Bulimus Scopoli, 1777"
+6f30f934-a028-49d5-a381-9c692e89a8ea,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+db897b19-5a31-4275-b322-3fc446a5c44e,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+2853ca3d-0508-4acc-b94f-6482a34c6e81,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+ecf99589-3153-4eda-b3b8-d86fe3e9fbbd,"Cyrtolaelaps nemorensis (Koch, 1838)",originalNameUsageID,9c439028-49ca-4162-bccd-d97bbe99ad9e,"Gamasus nemorensis Koch, 1838"
+ce36241a-662e-44ab-a66b-12cf216e8a29,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+443655be-2292-4e5b-92bb-331cf7b9fc51,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+38ec0df1-235d-4be7-b101-3188c639baeb,"Carcharias (Scoliodon) crenidens Klunzinger, 1880",parentNameUsageID,5a1c9656-f086-41ea-b677-1712a7a00410,Carcharias (Scoliodon) Müller & Henle
+6c1873bd-6f99-474e-ab7b-d863d3658b3f,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+eb3baaac-43ea-4830-8320-35a833fb47b0,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+966fc67d-5a9b-4b9d-b6d9-6bc85a496bdd,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+572526bd-a334-43b0-a1c3-d4212eebc7f4,"Aspidiotus aurantii Maskell, 1879",parentNameUsageID,286c4066-a599-4670-84cf-a95dd70b0df3,"Aspidiotus Bouché, 1833"
+7122b11a-e64e-4e0b-b799-d3712ddd5cc7,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+3fe32626-8306-4936-87ed-ef2d93866bb7,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+0b6e9d03-58e6-49f6-9887-06e5221e39f9,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+09b459b8-f926-4907-b998-c45807676b79,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+c1f0f874-909f-4e0c-9696-47bfcf424274,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+f337c430-2fe5-48f1-8504-1842b6bb6f1f,"Carcharias (Scoliodon) walbeehmi Bleeker, 1856",parentNameUsageID,71fce725-449f-4b34-bdc4-63c1bad6c5e3,Carcharias (Scoliodon) Müller & Henle
+aae9a65f-9213-4d6a-a0c0-a4c60cc99e15,"Epicyrtus xenodon Reinhardt, 1851",parentNameUsageID,8244edec-9e5e-4c3c-b4a3-ebfbfdc15495,Epicyrtus Müller & Troschel
+77d1d78c-26ab-4b15-bb7a-e8a832bc291e,"Prochilodus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,665c1bfb-567b-4c75-a709-bfd12cccb14c,"Prochilodus Agassiz in Spix & Agassiz, 1829"
+26414a9a-4f18-43cd-950c-d213e19b97bd,"Cryptus albomarginatus Taschenberg, 1876",parentNameUsageID,871efd1b-bdfb-42be-8f79-9a27e178289d,"Cryptus Fabricius, 1804"
+1c078892-3da7-45ed-be20-937f7a5fcbd4,"Megaselia cochlophila Borgmeier, 1967",parentNameUsageID,3c41b3a2-93d6-4dae-b5c9-30b4d243ce81,"Megaselia Rondani, 1856"
+30452e88-bd8b-4f25-9cc5-2003b916952d,"Platystoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,4945f3eb-f4a0-4f94-9712-6dc0803f9774,"Platystoma Agassiz in Spix & Agassiz, 1829"
+bf3ea308-8f84-4b56-b862-423c59a48e92,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+5a4e6a29-d1bc-4b44-8e97-f3dfc393cc71,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+ecb18756-9561-46f9-ad52-07958c851f31,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+4f4eba2a-a701-4b97-b361-617be1c4aa2c,"Scoliodon intermedius Garman, 1913",parentNameUsageID,80b4ed42-71a5-4a2b-a2cf-83ca23fb875c,Scoliodon Müller & Henle
+dcda22df-7cfd-4b74-b9ae-35fbfd8306f7,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+da4a2641-4b7c-4102-bae7-28578eb7e833,"Ptilophora nanlingensis Chen, Huang & Wang 2010",parentNameUsageID,5d1b657a-37f6-47b5-858d-8e40bdf774d5,Ptilophora
+d928cef8-5a5d-4ad9-96a1-49b9baf170ef,"Aneura jaschhofi Zaitzev, 2001",parentNameUsageID,1b7c1984-b5fa-402f-b6ea-9ac27fe7fb23,Aneura
+1b205444-ea3f-4243-b5f7-dc4cada2600b,"Aneura tonnoiri Zaitzev, 2001",parentNameUsageID,1b7c1984-b5fa-402f-b6ea-9ac27fe7fb23,Aneura
+ffaac01d-2d15-42ec-bd86-9868b4cdb3ed,"Aegus eschsholtzii saitoi Nagai, 2001",parentNameUsageID,09d76747-e846-4dec-81b5-c1543c05939e,"Aegus eschsholtzii Nagai, In Press"
+b1d1e30d-f40a-4b07-a6e5-97b1130b47e2,"Dilophus alpinus Harrison, 1990",parentNameUsageID,907eb805-6881-430f-88b3-f239df2f428c,Dilophus
+b3f15af4-7662-4f68-984d-c47c6e787b35,"Dilophus fumipennis Harrison, 1990",parentNameUsageID,907eb805-6881-430f-88b3-f239df2f428c,Dilophus
+19c2f421-b96c-42a2-8253-e4d71aa9d3b6,"Dilophus neoinsolitus Harrison, 1990",parentNameUsageID,907eb805-6881-430f-88b3-f239df2f428c,Dilophus
+2012e7d1-f798-47be-a86c-78221cbc4165,"Dilophus campbelli Harris, 1983",parentNameUsageID,93227b9d-3fbd-4929-ac59-26a6ff7d4d58,Dilophus
+131705b7-8bd1-4983-a8b3-84d4d26284d1,"Mengenilla moldrzyki Pohl, Niehuis, Gloyna, Misof & Beutel 2012",parentNameUsageID,ce9c440d-9489-4d35-af00-e18d15832ba9,Mengenilla Hofeneder 1910
+cc2222c5-f37d-4502-bf08-9fdc9746e402,"Aglaia orientalis Baba, 1949",parentNameUsageID,5ecd676c-aa21-4f79-ba96-bcf70344fd93,Aglaia Loureiro
+ff17801c-71bb-4b1c-bf4b-f20ab02733b7,"Darwiniella angularis Chen, Lin & Chan, 2012",parentNameUsageID,cb3373f9-61f6-4fb0-88b9-def4d4879027,Darwiniella
+92cf5376-39e5-4b5b-b478-b8bb9aa95917,Bahitini Zahniser & Dietrich 2013,parentNameUsageID,231c76e1-6319-471a-a826-9cd6d9f02908,"Bahitini Zahniser & Dietrich, 2013"
+50f524a4-754d-4ea4-8466-98a20d4dfa84,Bonaspeiini Zahniser & Dietrich 2013,parentNameUsageID,a894ecbd-43b9-4835-983c-690937b18769,Bonaspeiini Zahniser & Dietrich 2013
+6f2dc22c-bd71-4bfd-beee-8af8ba2819b4,Phlepsiini Zahniser & Dietrich 2013,parentNameUsageID,1ba4b309-896d-4251-9de0-5ce5421ecbb6,"Phlepsiini Zahniser J.N. & Dietrich C.H., 2013"
+e1f01dc6-889f-48c3-b0d7-28c87b614f1d,Vartini Zahniser & Dietrich 2013,parentNameUsageID,768892d1-3f5d-49b9-b238-cff075a8364c,Vartini
+1b25e664-a87f-44e6-b68e-034701b0200e,Chrysosoma furcatum,parentNameUsageID,0b3e3be7-4434-455d-af2d-2d305143007e,Chrysosoma
+ab45e586-004f-417d-bf1c-4d08dbe3d6b6,"Ischnosoma Agassiz in Spix & Agassiz, 1829",originalNameUsageID,8452c1b8-3cd2-4a03-8789-e9e097f0c581,"Ischnosoma Agassiz in Spix & Agassiz, 1829"
+fef8896d-3b6f-4c47-9097-9e57fbef8211,"Parvalamellinae Rigaud, Martini & Rettori, 2012",parentNameUsageID,e23aae3b-2cb4-4aa4-814e-516e03ecda95,"Involutinidae Butschli, 1880"
+86fb940c-909a-43d2-a8d9-639d016d98b4,"Proansomys badamae Maridet, Daxner-Höck, López-Guerrero & Göhlich 2016",parentNameUsageID,445e767f-d084-4c85-bced-86fd9c4ab85c,Proansomys 2013
+9c5e5325-55e6-47e0-87e9-cf414e51c8d5,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+1b179bcf-aa2a-48d9-815e-b5de80d55818,"Tarphiomimus triregius Makita & Leschen, 2017",parentNameUsageID,e39c8abd-774b-4e5a-a3d6-dd790b363202,"Tarphiomimus Wollaston, 1873"
+bf210216-0eab-433a-a9b1-c8c030658c35,"Kinitocelis sparsella Mey, Wichard, Müller, Ross & Ross 2018",parentNameUsageID,e7e12c68-f63b-4e98-a5f0-a17edf5ac8b4,"Kinitocelis Mey, Wichard, Müller & Wang, In Press"
+9e4ea226-8bbb-4acd-a401-1aea7d90ee60,"Cetopsis Agassiz in Spix & Agassiz, 1829",originalNameUsageID,6e9f5ec7-43c2-454d-826e-b1a8e23f0816,"Cetopsis Agassiz in Spix & Agassiz, 1829"
+f170dc96-134c-493a-a994-79ea6d6d8c47,"Sarothrias songi Yin & Bi, 2018",parentNameUsageID,085c0507-63af-4a4a-8af7-6ef538af9997,"Sarothrias Grouvelle, 1918"
+b2ec93ca-5fbf-40b6-9d28-f7708a94310c,"Neuquemya leanzaorum Damborenea, 2018",parentNameUsageID,5df27563-3b54-4728-ad0b-6898fbeadb91,"Neuquemya Damborenea, In Press"
+2c467b06-c6b9-4d1e-8f78-d5ec4531faec,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+72fa3550-a7b5-41c5-aa7f-53ab9a0f9551,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+e05d2674-52eb-470e-a0dc-e62cb3ae529b,"Yara oyaguei Trujillo & Cañote, 2019",parentNameUsageID,e1a8119d-a29a-41ec-bccc-cb8ed2950462,"Yara Reichardt & Hinton, 1976"
+221aa8ad-38b5-4a0e-9a37-89bc1be523db,"Loureedia colleni Henriques, Miñano & Pérez-Zarcos in Henriques, Miñano, Pérez-Zarcos, Řezáč, Rodriguez, Tamajon & Martinez-Aviles 2018",parentNameUsageID,33d4fab8-2715-40de-9156-df5168c9f9ef,Loureedia 2012
+8372390e-b138-407c-959e-ab6a256b8df7,"Paraahimia luodianensis Yuan & Song, 2019",parentNameUsageID,2f90d833-366d-460c-92ff-98cdaac09530,"Paraahimia Yuan & Song, In Press"
+cd2c6088-75c0-430d-92cd-5beb49bd06e8,"Sinoarinia feii Chen in Chen & Wu, 2020",parentNameUsageID,ba50e860-d854-4b42-affa-d2bfc960f400,"Sinoarinia Chen & Wu, In Press"
+e3d2652b-2ed2-4c42-941f-aebe91267524,Loureedia phoenixi Zamani & Marusik 2020,parentNameUsageID,5483e025-ab3b-4be4-85ff-617acbb7424d,Loureedia 2012
+de20171e-ad59-4dff-901b-9b139f91dc5f,"Scelidocteus taitave Oketch & Li in Oketch, Zonstein, Kioko & Li 2020",parentNameUsageID,5f529095-a7c7-493f-bf3f-81772608f7cc,"Scelidocteus Simon, 1907 in Quasin, Yadav, Siliwal & Kumar, In Press"
+5291c19d-bd6d-4dc6-9d9a-ddc089012ab5,"Musonia remota Anderson, 2021",parentNameUsageID,aa6b7400-4485-482b-8408-0bd7ff8ce158,"Musonia Stal, 1877 in Anderson, In Press"
+968fd322-1d43-4b22-8320-c7fbfb90f512,"Uropsilus dabieshanensis Uropsilus dabieshanensis Hu, Xu & Zhang 2021",parentNameUsageID,56a165a1-ecae-4b15-85c2-5769c688fa8f,"Uropsilus dabieshanensis Bui, In Press"
+fa7a2d8b-9c0a-4a00-a33d-b7d29ffbcc0c,"Schizodon Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ea598296-091f-4e70-b7a0-d0d4244d9220,"Schizodon Agassiz in Spix & Agassiz, 1829"
+f4366538-281f-40a4-92e5-6baee6d3e3e2,"Siambathynella janineana Camacho, Leclerc & Leclerc, 2022",parentNameUsageID,4574c34f-3fcc-44a3-8b4f-1ab7ed9069df,"Siambathynella Camacho, A.I., S. Watiroyram and A. Brancelj, 2011 in Camacho, In Press"
+a434ddba-083d-4f91-8745-4a41ff5ec0bd,"Steneotarsonemus kharukiae Ganguly & Karmakar, 2022",parentNameUsageID,00b9846c-898b-420e-8201-4dbc04b88b20,"Steneotarsonemus Ganguly, Mondal & Karmakar, In Press"
+127e69c7-ce39-480b-9cf1-23c188d34804,Chloeia amoureuxi Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+27d933e9-03c1-45f1-9824-c7d332f19707,Chloeia bemisae Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+379696d1-12b7-4e11-a099-82c2c2a6d01f,Chloeia boucheti Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+ccce704e-661c-420b-9ee3-d2dc5ffad2e2,Chloeia fauveli Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+82af0f2a-7e1a-4131-a579-b547eeb63f7c,Chloeia fiegei Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+fd6c0a4e-4602-4b34-90ef-d4fc45687d91,Chloeia gesae Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+99118c33-003b-40f0-85b8-9a38fb9085c2,Chloeia gilleti Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+9f7bc066-948c-45fe-959c-add15d972430,Chloeia hutchingsae Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+98a164be-8251-4242-922d-efbab4fdae6a,Chloeia keablei Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+2a871517-83ef-4cb6-90a4-734e671d5357,Chloeia mezianei Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+8c5e33df-b445-4220-ab7a-d3933743ad29,Chloeia murrayae Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+23ec1d3e-ef9a-459f-b3e7-05204f8dff86,Chloeia piotrowskiae Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+015ce52a-fe25-4746-a636-da995b8d77a6,Chloeia poupini Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+40d905e2-69e9-437c-874f-1e7f42e96671,Chloeia richeri Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+89c0d1d1-4a1d-43f5-b1fa-d1036c5e8c08,Chloeia slapcinskyi Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+6814b35a-04ba-4fc6-b6bc-ff053f25ad60,Chloeia wangi Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+98c45dce-49bf-4f8b-83a1-9733ecc7c771,Chloeia zibrowii Salazar-Vallejo 2023,parentNameUsageID,3a673279-7049-4164-9ff1-6a5006d2eb9c,Chloeia Savigny in Lamarck in Yáñez-Rivera & Salazar-Vallejo In Press
+5475deda-140a-4574-80e2-2b3330990e35,"Leporinus Agassiz in Spix & Agassiz, 1829",originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+a04e4d51-6dfa-40f4-a775-f61c3d2132ac,"Tarachocelis emmarossae Mey & Wichard, 2023",parentNameUsageID,36de964d-7b91-4986-9901-a4834db48b24,"Tarachocelis Mey, Wichard, Müller & Wang, In Press"
+65354276-42a3-42f2-9281-2b96e7553eca,"Tumidistephanus prometheus Ge, Jiang, Ren, Achterberg & Tan 2023",parentNameUsageID,d473ea07-b57b-4238-b434-a8afd6d8be8f,"Tumidistephanus Ge & Tan in Ge, Jiang, Ren & Tan In Press"
+9b005d28-d609-4079-ab25-f151f1af1335,"Torukjara bandeirae Pêgas, 2024",parentNameUsageID,20840134-011d-4238-9c45-b0363ec830ab,"Torukjara Pêgas, In Press"
+68a1eaa5-0432-43af-9c55-da05f01fe6ad,"Cosmopseudodon wenshanensis Wu & Liu in Wu, Liu, Zhang, Bogan, Niu, Jin, Wu & Liu, 2024",parentNameUsageID,28e677f4-f5cd-490c-99b6-54e1fefee7fd,"Cosmopseudodon Haas, 1920 in Wu, Liu, Zhang, Bogan, Niu, Jin, Wu & Liu, In Press"
+7d98abe7-300e-4d50-9028-9608403d9aba,"Spitiprion khannai Tonarová, Suttner & Hints in Tonarová, Suttner, Hints, Liang, Zemek, Kubajko, Zikmund, Kaiser & Kido, 2024",parentNameUsageID,ce9f1ccf-7a3d-469e-824a-a62887715994,"Spitiprion Tonarová, Suttner & Hints in Tonarová, Suttner, Hints, Liang, Zemek, Kubajko, Zikmund, Kaiser & Kido, In Press"
+cc948b47-5c06-4c6d-bd0f-6597d1b92b2e,"Geogaranya valiyaensis Agnihotri, Singh, Subramanian, Vishwanathan & Sahni, 2024",parentNameUsageID,7043fff2-4f1a-433c-8900-dbf2e34eedcd,"Geogaranya Agnihotri, Singh, Subramanian, Vishwanath & Sahni, In Press"
+28143d7a-c622-4b19-a307-b987ccbc2493,"Caletodraco cottardi Buffetaut, Tong, Girard, Hoyez & Párraga 2024",parentNameUsageID,a9a6c763-55e5-4f62-9e11-d606017c7e6c,Caletodraco Buffetaut In Press
+7cc6c660-dc9b-4d84-a46b-6ca7b9c6250f,"Eudemopsis squamapanna Pinkaew in Pinkaew, Muadsub & Jaikla, 2024",parentNameUsageID,1cd3100f-84bb-476e-9f05-2a79ec98037a,"Eudemopsis Falkovitsh in Pinkaew, Muadsub & Jaikla, In Press"
+84fa6fa8-4270-4169-9041-8701181af44e,"Schizodon Agassiz in Spix & Agassiz, 1829",originalNameUsageID,ea598296-091f-4e70-b7a0-d0d4244d9220,"Schizodon Agassiz in Spix & Agassiz, 1829"
+5657b878-2409-4692-b8ed-1ee613befc9b,"Neripteron Lesson, 1831",originalNameUsageID,62a60042-d349-460c-841a-4799e0d58415,"Neripteron Lesson, 1831"
+2bdc6fba-31aa-4079-a389-ce3cc740bfb9,"Vastnema crassicutaneum Vu, Abolafia, Nguyen, Le & Peña-Santiago 2025",parentNameUsageID,8b940294-9ebe-4c0b-a37e-a87b6ed54609,"Vastnema Vu, Abolafia & Peña-Santiago In Press"
+717b7f3c-622d-46f3-bfe0-35d28fbdd33b,"Eothenomyina Kryštufek & Shenbrot, 2022",parentNameUsageID,53ab684d-184d-4c16-9966-0297fbde7460,"Eothenomyina Krystufek and Shenbrot in Krystufek & Shenbrot, In Press"
+00a598f7-ebcd-4d86-bd45-43abdc1f3cbc,"Scelidocteus mbembai Pett, 2024",parentNameUsageID,bde8cc87-376f-41f2-80ed-2efa2d2c07c3,"Scelidocteus Simon, 1907 in Quasin, Yadav, Siliwal & Kumar, In Press"
+19bdd6a1-c747-4995-8526-cc3f6751b1f1,"Tigrivia baii Bao & Beutel in Liang, Beutel, Kecheng & Tong, 2025",parentNameUsageID,5ed60bae-0352-48c3-a072-4872b6e08660,"Tigrivia Bao Liang in Bao, In Press"
+1ee26cd7-7b6f-4894-8971-374cf07f9214,"Pseudoutanacris grilla Campos, García-Ruilova & Inclan 2026",parentNameUsageID,6f405b2d-1abe-4366-a207-48810f779f03,"Pseudoutanacris Jago, In Press"
+8ddec3b6-a377-4b5d-9f6a-f74e638ed12b,"Limbobotys digitatus Ko & Bae in Ko, Bayarsaikhan, Kim & Bae, 2025",parentNameUsageID,b5cf914a-5261-4f0b-a690-418aeac2f995,"Limbobotys Munroe & Mutuura, 1970 in Ko, Bayarsaikhan, Kim & Yang-Seop, In Press"
+a7387223-3141-4607-b6b4-01c1d466995c,"Pseudopanorpidium inversa Schall, Kotthoff & Husemann 2026",parentNameUsageID,25fa5aaa-4cf1-4077-908b-70b7afb856b5,"Pseudopanorpidium Schall, Willmott, Kotthoff & Husemann in Willmott, Schall, Kotthoff & Husemann, In Press"
+326dbc12-d741-4d13-b74b-218e35b0f2cf,"Anderus rakiura Trewick & Morgan-Richards, 2025",parentNameUsageID,244821aa-0bed-4e51-8051-3a18fc3e8220,"Anderus Trewick, Taylor-Smith & Morgan-Richards, In Press"
+b58b6357-0a2d-4c6f-9908-23e4615de5d7,"Anderus pipiwai Trewick & Morgan-Richards, 2025",parentNameUsageID,244821aa-0bed-4e51-8051-3a18fc3e8220,"Anderus Trewick, Taylor-Smith & Morgan-Richards, In Press"
+b6777410-b333-429c-88fc-84fc89064d7a,"Incanomys mayopuma Zeballos, Pari, Medina, & Pino in Zeballos, Pari, Medina, Pino, Arias, Arce & Gonzales 2025",parentNameUsageID,b44b68f8-3702-49ec-bb49-506b8a0c3b65,"Incanomys Zeballos, Pari, Medina, Pino, Arias, Arce & Gonzales, In Press"
+cdfc9990-cf3f-4f2f-bb40-146d19ac24f7,Feldmannicarcinus hajzeri Schweitzer 2025,parentNameUsageID,a3d21f70-2569-4414-bd92-ea44c6b0a855,"Feldmannicarcinus Schweitzer, In Press"
+41807141-54ca-4320-b932-dfa2bc1656c8,"Thereuopoda kaijiangensis Ji, Shen & Zhang in Ji, Ji, Shen, Gao, Wu, Yu, Liu & Zhang 2025",parentNameUsageID,4bb32a6a-c620-44ed-80a3-6faf398671ed,"Thereuopoda Verhoeff, 1904 in Ji, In Press"
+6b1ad2c2-f8e3-461c-b8db-1af7ab36002a,"Thereuopoda edgecombei Ji, Liu & Zhang in Ji, Ji, Shen, Gao, Wu, Yu, Liu & Zhang 2025",parentNameUsageID,4bb32a6a-c620-44ed-80a3-6faf398671ed,"Thereuopoda Verhoeff, 1904 in Ji, In Press"
+c47e9cf8-e076-4707-8d4a-30977e5abe67,"Tumidistephanus epimetheus Ge & Tan in Ge, Ren & Tan 2025",parentNameUsageID,6c242840-babd-479c-8f5c-cb7ed9b2d44c,"Tumidistephanus Ge & Tan in Ge, Jiang, Ren & Tan In Press"
+e6c895b3-31cf-4083-84ba-3068cf307848,"Burmaeshna bechlyi Nel, Jouault, Azar & Azar 2025",parentNameUsageID,bb161d20-4180-404c-9979-4fa3365a9209,"Burmaeshna Huang, Cai, Nel & Bechly In Press"
+e3f15f15-12de-44f1-bc6a-37579e18e48a,"Amolops cuongi Pham, Hoang, Tapley, Nguyen, Nguyen, La, Ziegler, Rowley, Nguyen & Le 2025",parentNameUsageID,e04eeb3f-d386-41b1-99be-19d85a23f2d2,"Amolops Cope, 1865 in Wu, Yu, Shaobing, Hou, Kilunda, Xiong, Yunfang, Jiang, Hong & Ouyang & Jing & Che In Press"
+53c089be-a83e-4f35-8348-01a49ddd2b3e,Austrophiaulax kinglakensis Withers & Keble 1934,parentNameUsageID,e6725bf3-0827-442c-9f2f-49d3359af8e5,Austrophiaulax Jell In Press
+0cabf433-0c13-44d3-a2b6-eef49c42c7c1,Leporinus Agassiz in Spix & Agassiz 1829,originalNameUsageID,c7956109-11d5-448e-b476-10f789099de9,"Leporinus Agassiz in Spix & Agassiz, 1829"
+a765907e-ecd7-4877-a123-348e2c6547da,"Loureedia melanconi Szűts & Zamani in Zamani, Marusik, Sharaf, Al Ketbi & Szűts 2026",parentNameUsageID,69d83018-9e76-4f18-9209-1ed48fcf5b52,Loureedia 2012
+397aa5b1-650d-4363-b6e4-44c5c717ce48,Lulilan chumbi Tang & Wang 2026,parentNameUsageID,ea7da1be-3a7e-4ae1-a379-02e75fdb32a3,Lulilan Willmann In Press
+cbdd077d-2e27-4e23-ac9e-7047ae8c1772,Phine linyejiei Tang & Wang 2026,parentNameUsageID,e26637d1-df84-424a-b2e2-b87c24ef204a,Phine Willmann In Press
+8bee5f35-8678-46e7-b267-d2e3d7cffae1,Musonia compacta Anderson 2026,parentNameUsageID,8bfdceb9-c6ac-41db-9992-1a7cc99d6692,"Musonia Stal, 1877 in Anderson In Press"

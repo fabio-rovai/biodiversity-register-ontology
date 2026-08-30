@@ -12,7 +12,7 @@
     dcterms:description "An OWL 2 ontology for representing what biodiversity registers actually assert: identifier assertions with per-scheme conformance, rights assertions with their verbatim source strings, dereference observations, and dated register snapshots. Status and identity are never properties of a thing; they are dated claims by a named register."@en ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:creator "Fabio Rovai" ;
-    owl:versionInfo "0.1.0" .
+    owl:versionInfo "0.2.0" .
 
 #################################################################
 # Registers and resources
@@ -202,3 +202,47 @@ biodiv:WoRMS a biodiv:Register ;
 biodiv:IPNI a biodiv:Register ;
     rdfs:label "International Plant Names Index"@en ;
     rdfs:seeAlso <https://www.ipni.org/> .
+
+#################################################################
+# Internal reference assertions (added 0.2.0, ZooBank recovery census)
+#
+# A register that publishes a hierarchy asserts, per record, that some other
+# record is its parent or its original usage. That assertion is a dated claim
+# like any other, and it can fail in a way an identifier assertion cannot:
+# the target identifier may be absent from the same publication that asserts
+# it. Modelling it as a claim, rather than as an edge, lets a broken pointer
+# be recorded without pretending the target exists.
+#################################################################
+
+biodiv:InternalReferenceAssertion a owl:Class ;
+    rdfs:label "Internal reference assertion"@en ;
+    rdfs:comment "A dated claim by a register that one of its records points at another of its records, together with whether that target is actually present in the same published snapshot."@en .
+
+biodiv:referenceSubject a owl:ObjectProperty ;
+    rdfs:domain biodiv:InternalReferenceAssertion ;
+    rdfs:label "reference subject"@en ;
+    rdfs:comment "The record that carries the pointer."@en .
+
+biodiv:referenceRole a owl:DatatypeProperty ;
+    rdfs:domain biodiv:InternalReferenceAssertion ;
+    rdfs:range xsd:string ;
+    rdfs:label "reference role"@en ;
+    rdfs:comment "The source field that carries the pointer, verbatim, for example parentNameUsageID."@en .
+
+biodiv:referenceTarget a owl:DatatypeProperty ;
+    rdfs:domain biodiv:InternalReferenceAssertion ;
+    rdfs:range xsd:string ;
+    rdfs:label "reference target"@en ;
+    rdfs:comment "The identifier the pointer names, verbatim, whether or not it resolves."@en .
+
+biodiv:referenceResolves a owl:DatatypeProperty ;
+    rdfs:domain biodiv:InternalReferenceAssertion ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "reference resolves"@en ;
+    rdfs:comment "True when the named target is present as a record in the same published snapshot."@en .
+
+biodiv:referenceTargetLabel a owl:DatatypeProperty ;
+    rdfs:domain biodiv:InternalReferenceAssertion ;
+    rdfs:range xsd:string ;
+    rdfs:label "reference target label"@en ;
+    rdfs:comment "The prose name the register gives for the target, which may be present even when the identifier is not."@en .

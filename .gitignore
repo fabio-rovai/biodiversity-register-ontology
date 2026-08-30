@@ -4,3 +4,6 @@ graph/rights.ttl
 __pycache__/
 .pytest_cache/
 *.pyc
+
+# 81 MB source archive, re-fetchable from the IPT by pipeline/08
+reports/zoobank_dwca.zip
