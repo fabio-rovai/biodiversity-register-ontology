@@ -1,0 +1,80 @@
+{
+  "generated": "2026-08-31T20:25:03.363296+00:00",
+  "archive_rows": 527127,
+  "archive_extensions_declared": 0,
+  "gbif_usages_total": 527163,
+  "gbif_origin_split": {
+    "SOURCE": 527124,
+    "DENORMED_CLASSIFICATION": 39
+  },
+  "r3_blank_name_records": 5,
+  "r3_rejected_by_gbif": 3,
+  "r3_accepted_by_gbif": 2,
+  "identity": "527127 archive rows - 3 rejected + 39 synthesised = 527163",
+  "reconciles": true,
+  "residual": 0,
+  "finding_gbif_accepted_nameless_records": [
+    {
+      "taxonID": "a9385652-5967-40f6-832e-4ef4ac0e326d",
+      "present_in_gbif": true,
+      "gbif_key": 208757575,
+      "scientificName": ".",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "issues": [
+        "SCIENTIFIC_NAME_ASSEMBLED",
+        "BACKBONE_MATCH_NONE"
+      ]
+    },
+    {
+      "taxonID": "c3c470ea-f571-4928-8be5-822bed704626",
+      "present_in_gbif": true,
+      "gbif_key": 337071860,
+      "scientificName": ".",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "issues": [
+        "SCIENTIFIC_NAME_ASSEMBLED",
+        "BACKBONE_MATCH_NONE"
+      ]
+    }
+  ],
+  "r3_detail": [
+    {
+      "taxonID": "c9ba88ff-58e7-419e-884e-d09ec966bc8e",
+      "present_in_gbif": false
+    },
+    {
+      "taxonID": "e755ec8f-50ce-4b7c-baca-285eddb83713",
+      "present_in_gbif": false
+    },
+    {
+      "taxonID": "a9385652-5967-40f6-832e-4ef4ac0e326d",
+      "present_in_gbif": true,
+      "gbif_key": 208757575,
+      "scientificName": ".",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "issues": [
+        "SCIENTIFIC_NAME_ASSEMBLED",
+        "BACKBONE_MATCH_NONE"
+      ]
+    },
+    {
+      "taxonID": "b5baf9d6-84ac-4a3e-b064-d4c2a5622182",
+      "present_in_gbif": false
+    },
+    {
+      "taxonID": "c3c470ea-f571-4928-8be5-822bed704626",
+      "present_in_gbif": true,
+      "gbif_key": 337071860,
+      "scientificName": ".",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "issues": [
+        "SCIENTIFIC_NAME_ASSEMBLED",
+        "BACKBONE_MATCH_NONE"
+      ]
+    }
+  ]
+}

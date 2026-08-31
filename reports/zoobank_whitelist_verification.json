@@ -1,0 +1,43 @@
+{
+  "sample_size": {
+    "set_based": 50,
+    "sparql": 50,
+    "agree": true
+  },
+  "after_arm_size": {
+    "set_based": 50,
+    "sparql": 50,
+    "agree": true
+  },
+  "before_404": {
+    "set_based": 50,
+    "sparql": 50,
+    "agree": true
+  },
+  "after_200": {
+    "set_based": 50,
+    "sparql": 50,
+    "agree": true
+  },
+  "flipped_404_to_200": {
+    "set_based": 50,
+    "sparql": 50,
+    "agree": true
+  },
+  "transient_reprobed": {
+    "set_based": 2,
+    "sparql": 2,
+    "agree": true
+  },
+  "urls_with_contradictory_status_same_date": {
+    "set_based": 50,
+    "sparql": 50,
+    "agree": true
+  },
+  "open_ontologies": {
+    "validate": "{\"ok\":true,\"statements\":703,\"triples\":703}",
+    "lint": "{\"issue_count\":0,\"issues\":[],\"suppressed_count\":0}",
+    "validate_ontology_0_3_0": "{\"ok\":true,\"statements\":196,\"triples\":196}"
+  },
+  "failures": []
+}

@@ -12,7 +12,7 @@
     dcterms:description "An OWL 2 ontology for representing what biodiversity registers actually assert: identifier assertions with per-scheme conformance, rights assertions with their verbatim source strings, dereference observations, and dated register snapshots. Status and identity are never properties of a thing; they are dated claims by a named register."@en ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:creator "Fabio Rovai" ;
-    owl:versionInfo "0.2.0" .
+    owl:versionInfo "0.3.0" .
 
 #################################################################
 # Registers and resources
@@ -202,6 +202,33 @@ biodiv:WoRMS a biodiv:Register ;
 biodiv:IPNI a biodiv:Register ;
     rdfs:label "International Plant Names Index"@en ;
     rdfs:seeAlso <https://www.ipni.org/> .
+
+#################################################################
+# Client-conditioned resolution (added 0.3.0, ZooBank whitelist retest)
+#
+# The 0.1.0 model treated observationDate as sufficient to identify a
+# resolution observation. The ZooBank whitelist retest of 30 August 2026
+# falsified that: the same URL returned 404 and 200 on the same date, and the
+# only difference was whether the requesting client's address was on the
+# register's anti-DDoS whitelist. Resolution is therefore a function of the
+# client as well as the resource, and a model that cannot say which client
+# observed what cannot represent a gated register at all.
+#################################################################
+
+biodiv:clientWhitelisted a owl:DatatypeProperty ;
+    rdfs:domain biodiv:ResolutionObservation ; rdfs:range xsd:boolean ;
+    rdfs:label "client whitelisted"@en ;
+    rdfs:comment "Whether the observing client's address was on the register's access whitelist at the time of observation. Part of observation identity, not metadata about it: without it, two contradictory observations of one URL on one date are indistinguishable."@en .
+
+biodiv:observationInstant a owl:DatatypeProperty ;
+    rdfs:domain biodiv:ResolutionObservation ; rdfs:range xsd:dateTime ;
+    rdfs:label "observation instant"@en ;
+    rdfs:comment "The observation timestamp to sub-day precision. Required where more than one observation of the same URL occurs on a single date."@en .
+
+biodiv:firstPassHttpStatus a owl:DatatypeProperty ;
+    rdfs:domain biodiv:ResolutionObservation ; rdfs:range xsd:integer ;
+    rdfs:label "first-pass HTTP status"@en ;
+    rdfs:comment "The status returned on the first attempt where a retry was needed. Retained so that transient failures are visible rather than smoothed away by the retry that followed."@en .
 
 #################################################################
 # Internal reference assertions (added 0.2.0, ZooBank recovery census)
