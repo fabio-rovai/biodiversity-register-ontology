@@ -37,7 +37,7 @@
   "open_ontologies": {
     "validate": "{\"ok\":true,\"statements\":48381,\"triples\":48367}",
     "lint": "{\"issue_count\":0,\"issues\":[],\"suppressed_count\":0}",
-    "validate_ontology": "{\"ok\":true,\"statements\":181,\"triples\":181}"
+    "validate_ontology": "{\"ok\":true,\"statements\":196,\"triples\":196}"
   },
   "failures": []
 }
